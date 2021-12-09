@@ -1,2 +1,2 @@
-# geo-gta3
+# GEO GTA III
 Georgian language pack for GTA III
