@@ -18,5 +18,5 @@
 # ინფორმაცია
 * `fonts` საქაღალდე შეიცავს ფონტის Photoshop-ის PSD ფაილებს. GTA III-ს აქვს 3 ფონტი: font1, font2 და ფონტი pager-ისთვის.
 
-# Extra
+# ექსტრა ინფორმაცია
 არ დაგავიწყდეთ `GTA III - Essential Fixes`-ის მოდის დაყენება. ეს მოდი ბევრ ხარვეზს ასწორებს: განიერი ეკრანის ხარვეზს, მენიუს ბაგებს და ა.შ: https://steamcommunity.com/sharedfiles/filedetails/?id=1744154318
