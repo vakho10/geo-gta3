@@ -5,13 +5,17 @@
   "targets": {
     "default": {
       "source": "src/index.html",
+      "distDir": "../docs"
+    },
+    "prod": {
       "publicUrl": "/geo-gta3",
+      "source": "src/index.html",
       "distDir": "../docs"
     }
   },
   "scripts": {
     "dev": "parcel",
-    "build": "parcel build"
+    "build": "parcel build --target prod"
   },
   "author": "vakho10",
   "license": "ISC",
