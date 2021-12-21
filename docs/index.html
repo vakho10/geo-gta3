@@ -6,30 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GEO GTA III</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
     <h1>DEMO PAGE</h1>
-    <script>
-        window.addEventListener('load', () => {
-            // noinspection JSUnresolvedVariable
-            let audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-            let xhr = new XMLHttpRequest();
-            xhr.open('GET', '/geo-gta3/assets/audio/bg-loop.mp3');
-            xhr.responseType = 'arraybuffer';
-            xhr.addEventListener('load', () => {
-                audioCtx.decodeAudioData(xhr.response).then((audioBuffer) => {
-                    let source = audioCtx.createBufferSource();
-                    source.buffer = audioBuffer;
-                    source.connect(audioCtx.destination);
-                    source.loop = false;
-                    source.start();
-                    playsound(audioBuffer);
-                });
-            });
-            xhr.send();
-        });
-    </script>
+    <script src="assets/js/bg-audio-loop.js"></script>
 </body>
 
 </html>
