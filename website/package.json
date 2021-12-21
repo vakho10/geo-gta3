@@ -5,6 +5,7 @@
   "targets": {
     "default": {
       "source": "src/index.html",
+      "publicUrl": "/geo-gta3",
       "distDir": "../docs"
     }
   },
