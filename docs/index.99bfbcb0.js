@@ -1,0 +1,2 @@
+window.addEventListener("load",(()=>{const e=new(window.AudioContext||window.webkitAudioContext),o=e.createGain();o.gain.value=.4,o.connect(e.destination);const t=new XMLHttpRequest;t.open("GET","https://vakho10.github.io/geo-gta3/audio/bg-loop.mp3"),t.responseType="arraybuffer",t.addEventListener("load",(()=>{e.decodeAudioData(t.response).then((t=>{let n=e.createBufferSource();n.buffer=t,n.connect(o),n.loop=!0,n.start(),playsound(t)}))})),t.send()}));
+//# sourceMappingURL=index.99bfbcb0.js.map

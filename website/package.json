@@ -1,0 +1,20 @@
+{
+  "name": "geo-gta3",
+  "version": "1.0.0",
+  "description": "A simple website for GEO GTA III project",
+  "targets": {
+    "default": {
+      "source": "src/index.html",
+      "distDir": "../docs"
+    }
+  },
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "author": "vakho10",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}
