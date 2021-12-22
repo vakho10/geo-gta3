@@ -35,3 +35,10 @@ body {
     border-left: 1px solid $color-border;
   }
 }
+
+.claude-image {
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  filter: drop-shadow(-60px -25px 12px $color-bg-darker);
+}
