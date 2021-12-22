@@ -1,0 +1,37 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+@import "variables";
+@import "colors";
+@import "fonts";
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.border {
+  &-bottom-part {
+    border-bottom: 1px solid $color-border;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+  &-top-part {
+    border-top: 1px solid $color-border;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+  }
+  &-bottom-part, &-top-part {
+    border-right: 1px solid $color-border;
+    border-left: 1px solid $color-border;
+  }
+}

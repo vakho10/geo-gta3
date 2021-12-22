@@ -1,0 +1,25 @@
+@import "variables";
+
+.bg {
+    &-background {
+        background-color: $color-bg;
+    }
+
+    &-background-dark {
+        background-color: $color-bg-dark;
+    }
+
+    &-main {
+        background-color: $color-primary;
+    }
+}
+
+.text {
+    &-simple {
+        color: $color-text;
+    }
+
+    &-simple-light {
+        color: $color-text-light;
+    }
+}

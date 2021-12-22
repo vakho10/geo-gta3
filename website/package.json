@@ -1,14 +1,17 @@
 {
   "name": "geo-gta3",
   "version": "1.0.0",
-  "description": "A simple website for GEO GTA III project",  
+  "description": "A simple website for GEO GTA III project",
   "scripts": {
-    "dev": "parcel --public-url / --dist-dir ../docs src/index.html",
+    "dev": "parcel src/index.html",
     "build": "parcel build --public-url /geo-gta3 --dist-dir ../docs src/index.html"
   },
   "author": "vakho10",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.0.1"
+    "@parcel/transformer-sass": "^2.0.1",
+    "bootstrap": "^5.1.3",
+    "parcel": "^2.0.1",
+    "sass": "^1.45.1"
   }
 }
