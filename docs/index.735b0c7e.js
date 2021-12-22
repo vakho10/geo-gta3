@@ -1,0 +1,2 @@
+window.addEventListener("load",(()=>{const e=new(window.AudioContext||window.webkitAudioContext),n=e.createGain();n.gain.value=.35,n.connect(e.destination);const o=new XMLHttpRequest;o.open("GET","/geo-gta3/audio/bg-loop.mp3"),o.responseType="arraybuffer",o.addEventListener("load",(()=>{e.decodeAudioData(o.response).then((o=>{let t=e.createBufferSource();t.buffer=o,t.connect(n),t.loop=!0,t.start()}))})),o.send()}));
+//# sourceMappingURL=index.735b0c7e.js.map
