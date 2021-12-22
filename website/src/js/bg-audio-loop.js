@@ -1,4 +1,4 @@
-// import bgAudio from 'url:../audio/bg-loop.mp3';
+import bgAudio from 'url:../audio/bg-loop.mp3';
 
 window.addEventListener('load', () => {
     const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
@@ -6,7 +6,7 @@ window.addEventListener('load', () => {
     gainNode.gain.value = 0.35; // setting it to 35%
     gainNode.connect(audioCtx.destination);
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', '/geo-gta3/audio/bg-loop.mp3');
+    xhr.open('GET', bgAudio);
     xhr.responseType = 'arraybuffer';
     xhr.addEventListener('load', () => {
         audioCtx.decodeAudioData(xhr.response).then((audioBuffer) => {
