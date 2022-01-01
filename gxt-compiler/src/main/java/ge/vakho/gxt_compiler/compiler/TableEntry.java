@@ -1,4 +1,4 @@
-package ge.vakho.gxt_compiler.model;
+package ge.vakho.gxt_compiler.compiler;
 
 public class TableEntry implements Comparable<TableEntry> {
 

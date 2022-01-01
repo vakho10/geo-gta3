@@ -1,10 +1,8 @@
-package ge.vakho.gxt_compiler;
+package ge.vakho.gxt_compiler.compiler;
 
 import com.google.gson.Gson;
-import com.google.gson.internal.LinkedTreeMap;
 import com.google.gson.reflect.TypeToken;
-import ge.vakho.gxt_compiler.model.TableData;
-import ge.vakho.gxt_compiler.model.TableEntry;
+import ge.vakho.gxt_compiler.App;
 
 import java.io.*;
 import java.util.Collections;
@@ -13,7 +11,7 @@ import java.util.Map;
 
 public class StringCompiler {
 
-    private LinkedTreeMap<String, Short> converterJsonMap;
+    private Map<String, Short> converterJsonMap;
     public TableData mainTable = new TableData();
 
     public StringCompiler() throws IOException {

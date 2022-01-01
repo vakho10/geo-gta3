@@ -12,8 +12,7 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 
-
-<StackPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<StackPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ge.vakho.gxt_compiler.MainController">
    <children>
       <VBox minWidth="600.0">
          <padding>
@@ -29,12 +28,12 @@
                   </Label>
                   <HBox>
                      <children>
-                        <TextField editable="false" focusTraversable="false" promptText="მაგალითად: D:\geo-gta3\translations\i18n.json" HBox.hgrow="ALWAYS">
+                        <TextField fx:id="inputFileTextField" editable="false" focusTraversable="false" promptText="მაგალითად: D:\geo-gta3\translations\i18n.json" HBox.hgrow="ALWAYS">
                            <HBox.margin>
                               <Insets />
                            </HBox.margin>
                         </TextField>
-                        <Button minWidth="120.0" mnemonicParsing="false" text="არჩევა">
+                        <Button minWidth="120.0" mnemonicParsing="false" onAction="#onChooseInputFileClick" text="არჩევა">
                            <HBox.margin>
                               <Insets left="10.0" />
                            </HBox.margin>
@@ -55,12 +54,12 @@
                   </Label>
                   <HBox>
                      <children>
-                        <TextField editable="false" focusTraversable="false" promptText="მაგალითად: D:\GTAIII\TEXT\american.gxt" HBox.hgrow="ALWAYS">
+                        <TextField fx:id="outputFileTextField" editable="false" focusTraversable="false" promptText="მაგალითად: D:\GTAIII\TEXT\american.gxt" HBox.hgrow="ALWAYS">
                            <HBox.margin>
                               <Insets />
                            </HBox.margin>
                         </TextField>
-                        <Button minWidth="120.0" mnemonicParsing="false" text="არჩევა">
+                        <Button minWidth="120.0" mnemonicParsing="false" onAction="#onChooseOutputFileClick" text="არჩევა">
                            <HBox.margin>
                               <Insets left="10.0" />
                            </HBox.margin>
@@ -83,12 +82,12 @@
                         <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
                      </rowConstraints>
                      <children>
-                        <Button cancelButton="true" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="გამოსვლა" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                        <Button cancelButton="true" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onExitApplicationClick" text="გამოსვლა" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
                            <GridPane.margin>
                               <Insets right="5.0" />
                            </GridPane.margin>
                         </Button>
-                        <Button defaultButton="true" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="GXT ფაილის გენერაცია" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                        <Button fx:id="btnGenerateGXT" defaultButton="true" disable="true" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onCompileGXTClick" text="GXT ფაილის გენერაცია" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
                            <GridPane.margin>
                               <Insets left="5.0" />
                            </GridPane.margin>
@@ -102,7 +101,7 @@
             </VBox>
          </children>
       </VBox>
-      <StackPane style="-fx-background-color: rgba(0,0,0,.1);">
+      <StackPane fx:id="loadingOverlayPane" style="-fx-background-color: rgba(0,0,0,.1);" visible="false">
          <children>
             <ProgressIndicator StackPane.alignment="CENTER" />
          </children>

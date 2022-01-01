@@ -1,6 +1,4 @@
-package ge.vakho.gxt_compiler.model;
-
-import ge.vakho.gxt_compiler.model.TableEntry;
+package ge.vakho.gxt_compiler.compiler;
 
 import java.io.IOException;
 import java.io.OutputStream;
