@@ -83,7 +83,7 @@
 
                     <!-- When set, creates a zip of the resulting runtime image with specified
                         compression level -->
-                    <jlinkZipName>${project.name}-zip</jlinkZipName>
+                    <jlinkZipName>${project.name}</jlinkZipName>
                     <compress>2</compress>
 
                     <mainClass>${main-class}</mainClass>
