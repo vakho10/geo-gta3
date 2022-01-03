@@ -3,6 +3,7 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
 <?import javafx.scene.control.ProgressIndicator?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.ColumnConstraints?>
@@ -47,23 +48,27 @@
             </VBox>
             <VBox>
                <children>
-                  <Label maxHeight="1.7976931348623157E308" text="საბოლოო GXT ფაილის მისამართი:">
+                  <Label maxHeight="1.7976931348623157E308" text="საბოლოო GXT ფაილების მისამართი:">
                      <VBox.margin>
                         <Insets bottom="5.0" />
                      </VBox.margin>
                   </Label>
                   <HBox>
                      <children>
-                        <TextField fx:id="outputFileTextField" editable="false" focusTraversable="false" promptText="მაგალითად: D:\GTAIII\TEXT\american.gxt" HBox.hgrow="ALWAYS">
-                           <HBox.margin>
-                              <Insets />
-                           </HBox.margin>
-                        </TextField>
-                        <Button minWidth="120.0" mnemonicParsing="false" onAction="#onChooseOutputFileClick" text="არჩევა">
+                        <ListView fx:id="outputFilesListView" prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+                        <VBox>
                            <HBox.margin>
                               <Insets left="10.0" />
                            </HBox.margin>
-                        </Button>
+                           <children>
+                              <Button minWidth="120.0" mnemonicParsing="false" onAction="#onAddOutputFileClick" text="დამატება" />
+                              <Button fx:id="btnRemoveOutputFile" disable="true" minWidth="120.0" mnemonicParsing="false" onAction="#onRemoveOutputFileClick" text="წაშლა">
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </Button>
+                           </children>
+                        </VBox>
                      </children>
                   </HBox>
                </children>
@@ -87,7 +92,7 @@
                               <Insets right="5.0" />
                            </GridPane.margin>
                         </Button>
-                        <Button fx:id="btnGenerateGXT" defaultButton="true" disable="true" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onCompileGXTClick" text="GXT ფაილის გენერაცია" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                        <Button fx:id="btnGenerateGXT" defaultButton="true" disable="true" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onCompileGXTClick" text="GXT ფაილების გენერაცია" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
                            <GridPane.margin>
                               <Insets left="5.0" />
                            </GridPane.margin>

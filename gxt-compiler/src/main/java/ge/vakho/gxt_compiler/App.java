@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -29,6 +30,9 @@ public class App extends Application {
         stage.setScene(scene);
         stage.setResizable(false);
         stage.setTitle("GXT Compiler for GEO GTA III");
+        try (InputStream is = App.class.getResourceAsStream("/images/gta3.png")) {
+            stage.getIcons().add(new Image(is));
+        }
         stage.show();
     }
 

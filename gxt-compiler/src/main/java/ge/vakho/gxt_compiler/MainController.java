@@ -5,9 +5,13 @@ import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
 import ge.vakho.gxt_compiler.compiler.StringCompiler;
 import javafx.application.Platform;
+import javafx.beans.binding.Bindings;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.StackPane;
 import javafx.stage.FileChooser;
@@ -25,15 +29,16 @@ import java.util.concurrent.ExecutorService;
 public class MainController implements Initializable {
 
     public TextField inputFileTextField;
-    public TextField outputFileTextField;
+    public ListView outputFilesListView;
     public StackPane loadingOverlayPane;
     public Button btnGenerateGXT;
+    public Button btnRemoveOutputFile;
 
     private FileChooser inputFileChooser;
     private FileChooser outputFileChooser;
 
     private Path inputFile;
-    private Path outputFile;
+    private ObservableList<File> outputFilesList = FXCollections.observableArrayList();
 
     private Stage stage;
 
@@ -50,6 +55,8 @@ public class MainController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
+        outputFilesListView.setItems(outputFilesList);
+
         // Input file chooser
         inputFileChooser = new FileChooser();
         inputFileChooser.setTitle("Select JSON Translation File");
@@ -64,7 +71,10 @@ public class MainController implements Initializable {
 
         // Disable compile button if any text field is empty!
         btnGenerateGXT.disableProperty().bind(
-                inputFileTextField.textProperty().isEmpty().or(outputFileTextField.textProperty().isEmpty()));
+                inputFileTextField.textProperty().isEmpty().or(Bindings.isEmpty(outputFilesList)));
+
+        // Disable remove button if nothing is selected
+        btnRemoveOutputFile.disableProperty().bind(Bindings.isEmpty(outputFilesListView.getSelectionModel().getSelectedItems()));
     }
 
     public void onChooseInputFileClick(ActionEvent actionEvent) {
@@ -78,15 +88,20 @@ public class MainController implements Initializable {
         }
     }
 
-    public void onChooseOutputFileClick(ActionEvent actionEvent) {
+    public void onAddOutputFileClick(ActionEvent actionEvent) {
         File outputFile = outputFileChooser.showOpenDialog(stage);
         if (outputFile != null) {
-            this.outputFile = outputFile.toPath();
-            outputFileTextField.setText(outputFile.getAbsolutePath());
-            if (this.outputFile.toAbsolutePath().getParent() != null) {
-                outputFileChooser.setInitialDirectory(this.outputFile.toAbsolutePath().getParent().toFile());
+            if (!outputFilesList.contains(outputFile)) {
+                outputFilesList.add(outputFile);
+                if (outputFile.getParent() != null) {
+                    outputFileChooser.setInitialDirectory(outputFile.getParentFile());
+                }
             }
         }
+    }
+
+    public void onRemoveOutputFileClick(ActionEvent actionEvent) {
+        outputFilesList.removeAll(outputFilesListView.getSelectionModel().getSelectedItems());
     }
 
     public void onCompileGXTClick(ActionEvent actionEvent) {
@@ -123,9 +138,13 @@ public class MainController implements Initializable {
                 }
 
                 // Save gxt file
-                try (OutputStream os = Files.newOutputStream(outputFile)) {
-                    stringCompiler.outputIntoStream(os);
-                }
+                outputFilesList.forEach(outputFile -> {
+                    try (FileOutputStream fos = new FileOutputStream(outputFile)) {
+                        stringCompiler.outputIntoStream(fos);
+                    } catch (IOException e) {
+                        throw new RuntimeException(e);
+                    }
+                });
             } catch (IOException e) {
                 e.printStackTrace();
             } finally {
