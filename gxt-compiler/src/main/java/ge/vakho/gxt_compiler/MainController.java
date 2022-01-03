@@ -19,19 +19,15 @@ import javafx.stage.Stage;
 
 import java.io.*;
 import java.net.URL;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.ResourceBundle;
 import java.util.concurrent.ExecutorService;
-import java.util.stream.Collectors;
 
 public class MainController implements Initializable {
 
-    private final Configuration config = Configuration.getInstance();
+    private final ConfigPreferences configPreferences = new ConfigPreferences();
 
     public TextField inputFileTextField;
     public ListView outputFilesListView;
@@ -42,7 +38,7 @@ public class MainController implements Initializable {
     private FileChooser inputFileChooser;
     private FileChooser outputFileChooser;
 
-    private Path inputFile;
+    private File inputFile;
     private ObservableList<File> outputFilesList = FXCollections.observableArrayList();
 
     private Stage stage;
@@ -95,11 +91,11 @@ public class MainController implements Initializable {
         if (inputFile == null) {
             return;
         }
-        this.inputFile = inputFile.toPath();
+        this.inputFile = inputFile;
         inputFileTextField.setText(inputFile.getAbsolutePath());
-        updateInputFileInConfig();
-        if (this.inputFile.toAbsolutePath().getParent() != null) {
-            inputFileChooser.setInitialDirectory(this.inputFile.toAbsolutePath().getParent().toFile());
+        configPreferences.setInputFile(inputFile);
+        if (this.inputFile.getParentFile() != null) {
+            inputFileChooser.setInitialDirectory(this.inputFile.getParentFile());
         }
     }
 
@@ -114,7 +110,7 @@ public class MainController implements Initializable {
         }
         if (!outputFilesList.contains(outputFile)) {
             outputFilesList.add(outputFile);
-            updateOutputFilesInConfig();
+            configPreferences.setOutputFiles(outputFilesList);
             if (outputFile.getParent() != null) {
                 outputFileChooser.setInitialDirectory(outputFile.getParentFile());
             }
@@ -127,33 +123,16 @@ public class MainController implements Initializable {
     }
 
     private void loadPreviousInputFileFromConfig() {
-        String prevInputFilePath = config.getInputFile();
-        setInputFile(new File(prevInputFilePath));
+        setInputFile(configPreferences.getInputFile());
     }
 
     private void loadPreviousOutputFilesFromConfig() {
-        config.getOutputFiles().stream()
-                .filter(p -> p != null && !p.isBlank())
-                .map(File::new)
-                .forEach(this::addOutputFile);
+        configPreferences.getOutputFiles().forEach(this::addOutputFile);
     }
 
     private void removeOutputFile(List<File> selectedItems) {
         outputFilesList.removeAll(selectedItems);
-        updateOutputFilesInConfig();
-    }
-
-    private void updateInputFileInConfig() {
-        config.setInputFile(
-                this.inputFile.toAbsolutePath().toString()); // Update configuration
-    }
-
-    private void updateOutputFilesInConfig() {
-        config.setOutputFiles(
-                outputFilesList.stream()
-                        .map(p -> p.toPath().toAbsolutePath().toString())
-                        .collect(Collectors.toList())
-        );
+        configPreferences.setOutputFiles(outputFilesList);
     }
 
     public void onCompileGXTClick(ActionEvent actionEvent) {
@@ -162,7 +141,7 @@ public class MainController implements Initializable {
             try {
                 Map<String, String> inputMap = new LinkedHashMap<>();
                 try (
-                        InputStream fis = Files.newInputStream(inputFile);
+                        FileInputStream fis = new FileInputStream(inputFile);
                         InputStreamReader isr = new InputStreamReader(fis);
                         BufferedReader br = new BufferedReader(isr);
                 ) {
