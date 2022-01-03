@@ -6,7 +6,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>gxt-compiler</artifactId>
-    <version>1.0.0</version>
+    <version>1.2.0</version>
 
     <name>GXT Compiler</name>
     <description>GXT Compiler for GEO GTA III</description>
@@ -83,7 +83,7 @@
 
                     <!-- When set, creates a zip of the resulting runtime image with specified
                         compression level -->
-                    <jlinkZipName>${project.name}</jlinkZipName>
+                    <jlinkZipName>${project.name} ${project.version}</jlinkZipName>
                     <compress>2</compress>
 
                     <mainClass>${main-class}</mainClass>
