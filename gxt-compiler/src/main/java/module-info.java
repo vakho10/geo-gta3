@@ -3,6 +3,6 @@ module gxt.compiler {
     requires javafx.controls;
     requires javafx.fxml;
 
-    opens ge.vakho.gxt_compiler to javafx.fxml;
+    opens ge.vakho.gxt_compiler to javafx.fxml, com.google.gson;
     exports ge.vakho.gxt_compiler;
 }

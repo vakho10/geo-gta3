@@ -21,12 +21,17 @@ import java.io.*;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.ResourceBundle;
 import java.util.concurrent.ExecutorService;
+import java.util.stream.Collectors;
 
 public class MainController implements Initializable {
+
+    private final Configuration config = Configuration.getInstance();
 
     public TextField inputFileTextField;
     public ListView outputFilesListView;
@@ -75,33 +80,80 @@ public class MainController implements Initializable {
 
         // Disable remove button if nothing is selected
         btnRemoveOutputFile.disableProperty().bind(Bindings.isEmpty(outputFilesListView.getSelectionModel().getSelectedItems()));
+
+        // Load previous configuration information
+        loadPreviousInputFileFromConfig();
+        loadPreviousOutputFilesFromConfig();
     }
 
     public void onChooseInputFileClick(ActionEvent actionEvent) {
         File inputFile = inputFileChooser.showOpenDialog(stage);
-        if (inputFile != null) {
-            this.inputFile = inputFile.toPath();
-            inputFileTextField.setText(inputFile.getAbsolutePath());
-            if (this.inputFile.toAbsolutePath().getParent() != null) {
-                inputFileChooser.setInitialDirectory(this.inputFile.toAbsolutePath().getParent().toFile());
-            }
+        setInputFile(inputFile);
+    }
+
+    private void setInputFile(File inputFile) {
+        if (inputFile == null) {
+            return;
+        }
+        this.inputFile = inputFile.toPath();
+        inputFileTextField.setText(inputFile.getAbsolutePath());
+        updateInputFileInConfig();
+        if (this.inputFile.toAbsolutePath().getParent() != null) {
+            inputFileChooser.setInitialDirectory(this.inputFile.toAbsolutePath().getParent().toFile());
         }
     }
 
     public void onAddOutputFileClick(ActionEvent actionEvent) {
         File outputFile = outputFileChooser.showOpenDialog(stage);
-        if (outputFile != null) {
-            if (!outputFilesList.contains(outputFile)) {
-                outputFilesList.add(outputFile);
-                if (outputFile.getParent() != null) {
-                    outputFileChooser.setInitialDirectory(outputFile.getParentFile());
-                }
+        addOutputFile(outputFile);
+    }
+
+    private void addOutputFile(File outputFile) {
+        if (outputFile == null) {
+            return;
+        }
+        if (!outputFilesList.contains(outputFile)) {
+            outputFilesList.add(outputFile);
+            updateOutputFilesInConfig();
+            if (outputFile.getParent() != null) {
+                outputFileChooser.setInitialDirectory(outputFile.getParentFile());
             }
         }
     }
 
     public void onRemoveOutputFileClick(ActionEvent actionEvent) {
-        outputFilesList.removeAll(outputFilesListView.getSelectionModel().getSelectedItems());
+        List<File> selectedItems = outputFilesListView.getSelectionModel().getSelectedItems();
+        removeOutputFile(selectedItems);
+    }
+
+    private void loadPreviousInputFileFromConfig() {
+        String prevInputFilePath = config.getInputFile();
+        setInputFile(new File(prevInputFilePath));
+    }
+
+    private void loadPreviousOutputFilesFromConfig() {
+        config.getOutputFiles().stream()
+                .filter(p -> p != null && !p.isBlank())
+                .map(File::new)
+                .forEach(this::addOutputFile);
+    }
+
+    private void removeOutputFile(List<File> selectedItems) {
+        outputFilesList.removeAll(selectedItems);
+        updateOutputFilesInConfig();
+    }
+
+    private void updateInputFileInConfig() {
+        config.setInputFile(
+                this.inputFile.toAbsolutePath().toString()); // Update configuration
+    }
+
+    private void updateOutputFilesInConfig() {
+        config.setOutputFiles(
+                outputFilesList.stream()
+                        .map(p -> p.toPath().toAbsolutePath().toString())
+                        .collect(Collectors.toList())
+        );
     }
 
     public void onCompileGXTClick(ActionEvent actionEvent) {
