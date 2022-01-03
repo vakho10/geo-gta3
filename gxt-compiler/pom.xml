@@ -6,7 +6,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>gxt-compiler</artifactId>
-    <version>1.2.0</version>
+    <version>1.2.8</version>
 
     <name>GXT Compiler</name>
     <description>GXT Compiler for GEO GTA III</description>
