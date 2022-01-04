@@ -83,7 +83,17 @@ public class MainController implements Initializable {
     }
 
     public void onChooseInputFileClick(ActionEvent actionEvent) {
-        File inputFile = inputFileChooser.showOpenDialog(stage);
+        File inputFile;
+        try {
+            inputFile = inputFileChooser.showOpenDialog(stage);
+        } catch (IllegalArgumentException e) {
+            if (e.getMessage().contains("must be a valid folder")) {
+                inputFileChooser.setInitialDirectory(null);
+                inputFile = inputFileChooser.showOpenDialog(stage);
+            } else {
+                throw e;
+            }
+        }
         setInputFile(inputFile);
     }
 
@@ -94,9 +104,7 @@ public class MainController implements Initializable {
         this.inputFile = inputFile;
         inputFileTextField.setText(inputFile.getAbsolutePath());
         configPreferences.setInputFile(inputFile);
-        if (this.inputFile.getParentFile() != null) {
-            inputFileChooser.setInitialDirectory(this.inputFile.getParentFile());
-        }
+        updateInitialInputFileDirectory();
     }
 
     public void onAddOutputFileClick(ActionEvent actionEvent) {
@@ -111,9 +119,7 @@ public class MainController implements Initializable {
         if (!outputFilesList.contains(outputFile)) {
             outputFilesList.add(outputFile);
             configPreferences.setOutputFiles(outputFilesList);
-            if (outputFile.getParent() != null) {
-                outputFileChooser.setInitialDirectory(outputFile.getParentFile());
-            }
+            updateInitialOutputFilesDirectory();
         }
     }
 
@@ -124,15 +130,36 @@ public class MainController implements Initializable {
 
     private void loadPreviousInputFileFromConfig() {
         setInputFile(configPreferences.getInputFile());
+        updateInitialInputFileDirectory();
+    }
+
+    private void updateInitialInputFileDirectory() {
+        inputFileChooser.setInitialDirectory(null);
+        if (inputFile != null && inputFile.getParentFile() != null) {
+            inputFileChooser.setInitialDirectory(inputFile.getParentFile());
+        }
     }
 
     private void loadPreviousOutputFilesFromConfig() {
         configPreferences.getOutputFiles().forEach(this::addOutputFile);
+        updateInitialOutputFilesDirectory();
+    }
+
+    private void updateInitialOutputFilesDirectory() {
+        if (!outputFilesList.isEmpty()) {
+            File lastFile = outputFilesList.get(outputFilesList.size() - 1);
+            if (lastFile != null && lastFile.getParentFile() != null) {
+                outputFileChooser.setInitialDirectory(lastFile.getParentFile());
+                return;
+            }
+        }
+        outputFileChooser.setInitialDirectory(null);
     }
 
     private void removeOutputFile(List<File> selectedItems) {
         outputFilesList.removeAll(selectedItems);
         configPreferences.setOutputFiles(outputFilesList);
+        updateInitialOutputFilesDirectory();
     }
 
     public void onCompileGXTClick(ActionEvent actionEvent) {
