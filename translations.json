@@ -1017,12 +1017,12 @@
   "CAR_10": {
     "en": "Coach",
     "ru": "Coach",
-    "ka": "მწვრთნელი"
+    "ka": "ავტობუს-ლუქსი"
   },
   "CAR_11": {
     "en": "Flatbed",
     "ru": "Flatbed",
-    "ka": "ბრტყელი"
+    "ka": "ბრტყელა"
   },
   "CAR_12": {
     "en": "Linerunner",
@@ -1032,7 +1032,7 @@
   "CAR_13": {
     "en": "Trashmaster",
     "ru": "Trashmaster",
-    "ka": "Trashmaster"
+    "ka": "მენაგვე"
   },
   "CAR_14": {
     "en": "Patriot",
@@ -1097,7 +1097,7 @@
   "CAR_25": {
     "en": "Cheetah",
     "ru": "Cheetah",
-    "ka": "ჩიტა"
+    "ka": "გეპარდი"
   },
   "CAR_26": {
     "en": "Banshee",
@@ -1112,7 +1112,7 @@
   "CAR_28": {
     "en": "Infernus",
     "ru": "Infernus",
-    "ka": "ჯოჯოხეთი"
+    "ka": "ინფერნუსი"
   },
   "CAR_29": {
     "en": "Esperanto",
@@ -1132,7 +1132,7 @@
   "CAR_31": {
     "en": "Stretch",
     "ru": "Stretch",
-    "ka": "გაჭიმვა"
+    "ka": "სტრეჩი"
   },
   "CAR_32": {
     "en": "Perennial",
@@ -1197,7 +1197,7 @@
   "CAR_8": {
     "en": "Securicar",
     "ru": "Securicar",
-    "ka": "სეკურიკარი"
+    "ka": "ინკასატორი"
   },
   "CAR_9": {
     "en": "Moonbeam",
@@ -1387,7 +1387,7 @@
   "CHEETAH": {
     "en": "Cheetah",
     "ru": "Гепард",
-    "ka": "ჩიტა"
+    "ka": "გეპარდი"
   },
   "CHEVOK": {
     "en": "CheckEveryOkB4Save",
@@ -1447,7 +1447,7 @@
   "COACH": {
     "en": "Coach",
     "ru": "Автобус-люкс",
-    "ka": "მწვრთნელი"
+    "ka": "ავტობუს-ლუქსი"
   },
   "COLLECT": {
     "en": "COLLECTED:",
@@ -3777,7 +3777,7 @@
   "FARE4": {
     "en": "~g~Destination ~w~'Greasy Joe's Cafe' ~g~in Callahan Point.",
     "ru": "~g~Едем в ~w~'Кафе Грейзи Джо' ~g~на мысе Каллахан.",
-    "ka": "~g~დანიშნულება ~w~'Greasy Joe's Cafe' ~g~ Callahan Point-ში."
+    "ka": "~g~დანიშნულება ~w~'Greasy Joe's Cafe' ~g~კალაჰან პოინტში."
   },
   "FARE5": {
     "en": "~g~Destination ~w~'AmmuNation' ~g~in Redlight.",
@@ -5802,22 +5802,22 @@
   "FEST_R1": {
     "en": "Patriot Playground in secs",
     "ru": "'Пэтриот Ралли' (сек)",
-    "ka": "პატრიოტის სათამაშო მოედანი წამებში"
+    "ka": "'პატრიოტის რალი' (წამები)"
   },
   "FEST_R2": {
     "en": "A Ride In The Park in secs",
     "ru": "'Гонка в парке' (сек)",
-    "ka": "გასეირნება პარკში წამებში"
+    "ka": "'რბოლა პარკში' (წამები)"
   },
   "FEST_R3": {
     "en": "Gripped! in secs",
     "ru": "Догнал! за (сек)",
-    "ka": "დაიჭირა! წამებში"
+    "ka": "დაეწიე! წამებში"
   },
   "FEST_RM": {
     "en": "Multistorey Mayhem in secs",
     "ru": "'Гонка по гаражу' (сек)",
-    "ka": "მრავალსართულიანი არეულობა წამებში"
+    "ka": "'რბოლა ავტოფარეხზე' (წამები)"
   },
   "FEST_RP": {
     "en": "Rampages passed",
@@ -6412,7 +6412,7 @@
   "FLATBED": {
     "en": "Flatbed",
     "ru": "Флетбед",
-    "ka": "ბრტყელი"
+    "ka": "ბრტყელა"
   },
   "FLFSGF": {
     "en": "Fill First File With Guff",
@@ -7097,7 +7097,7 @@
   "GARAGE": {
     "en": "Drive the vehicle into the garage, then walk outside.",
     "ru": "Поставь машину в гараж и выйди наружу.",
-    "ka": "შეიტანეთ მანქანა ავტოფარეხში, შემდეგ გადით გარეთ."
+    "ka": "შეიყვანე მანქანა ავტოფარეხში და გადი გარეთ."
   },
   "GARAGE1": {
     "en": "~g~Get out of the vehicle and walk outside.",
@@ -7127,12 +7127,12 @@
   "GA_13": {
     "en": "Delivered like a pro. Complete the list and there'll be a bonus for you.",
     "ru": "Отличная работа! Пригонишь остальные - получишь вознаграждение.",
-    "ka": "კარგი სამუშაოა! დანარჩენსაც თუ მოიტან - მიიღებ ჯილდოს."
+    "ka": "კარგია! დანარჩენსაც თუ მოიტან - მიიღებ ჯილდოს."
   },
   "GA_14": {
     "en": "All the cars. NICE! Here's a little something.",
     "ru": "Все тачки. КРУТО! Вот тебе за это.",
-    "ka": "ყველა მანქანა. სასიამოვნო! აქ არის პატარა რაღაც."
+    "ka": "ყველა მანქანაა. მაგარია! ესეც შენი გასამრჯელო."
   },
   "GA_15": {
     "en": "Hope you like the new color.",
@@ -8102,7 +8102,7 @@
   "IMPORT1": {
     "en": "Go outside and wait for your vehicle.",
     "ru": "Выйди наружу и жди, когда тебе подадут тачку.",
-    "ka": "გადით გარეთ და დაელოდეთ თქვენს მანქანას."
+    "ka": "გადი გარეთ და დაელოდე შენ მანქანას."
   },
   "IND_ZON": {
     "en": "Portland",
@@ -8112,7 +8112,7 @@
   "INFERNS": {
     "en": "Infernus",
     "ru": "Инфернус",
-    "ka": "ჯოჯოხეთი"
+    "ka": "ინფერნუსი"
   },
   "INSTUN": {
     "en": "Insane stunt",
@@ -9162,7 +9162,7 @@
   "LANDSTK": {
     "en": "Landstalker",
     "ru": "Лэндсталкер",
-    "ka": "ლანდსტალკერი"
+    "ka": "ლენდსტალკერი"
   },
   "LANGSL": {
     "en": "LANGUAGE SELECTION",
@@ -10957,7 +10957,7 @@
   "PORT_W": {
     "en": "Callahan Point",
     "ru": "Мыс Каллахан",
-    "ka": "Callahan Point"
+    "ka": "კალაჰან პოინტი"
   },
   "PQUINS": {
     "en": "Perfect quadruple insane stunt",
@@ -11742,7 +11742,7 @@
   "SECURI": {
     "en": "Securicar",
     "ru": "Инкассатор",
-    "ka": "სეკურიკარი"
+    "ka": "ინკასატორი"
   },
   "SENTINL": {
     "en": "Sentinel",
@@ -12622,7 +12622,7 @@
   "TRASHM": {
     "en": "Trashmaster",
     "ru": "Мусоровоз",
-    "ka": "Trashmaster"
+    "ka": "მენაგვე"
   },
   "TRINST": {
     "en": "Triple insane stunt",
@@ -12722,7 +12722,7 @@
   "VANHSTP": {
     "en": "Any more Securicars you want cracked? Bring them to our garage in the Portland Harbor.",
     "ru": "Решил вскрыть еще несколько Инкассаторов? Пригони их в наш гараж в гавани Портланда.",
-    "ka": "კიდევ მეტი სეკურიკარის დაშლა გსურთ? მიიტანეთ ისინი ჩვენს ავტოფარეხში პორტლანდ ჰარბორში."
+    "ka": "გსურს მეტი 'ინკასატორის' დაშლა? მოიტანე ისინი ჩვენ ავტოფარეხში პორტლანდ ჰარბორში."
   },
   "WANTED1": {
     "en": "~g~Shake the cops and lose your wanted level!",
