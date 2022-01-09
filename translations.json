@@ -432,7 +432,7 @@
   "AMMU": {
     "en": "Go inside Ammu-Nation to buy a weapon.",
     "ru": "Чтобы купить оружие - зайди в магазин.",
-    "ka": "შედით ამუნაციაში იარაღის საყიდლად."
+    "ka": "იარაღის საყიდლად - შედი ამუნაციაში."
   },
   "AMMU_A": {
     "en": "Luigi said you'd need a piece...",
@@ -747,7 +747,7 @@
   "ATUTOR": {
     "en": "Press the ~h~~k~~TOGGLE_SUBMISSIONS~ button~w~ to toggle Paramedic missions on or off.",
     "ru": "Чтобы получить задание Скорой или отказаться от него нажми ~h~~k~~TOGGLE_SUBMISSIONS~~w~.",
-    "ka": "დააჭირეთ ~h~~k~~TOGGLE_SUBMISSIONS~ ღილაკს~w~, რათა ჩართოთ ან გამორთოთ პარამედიკოსის მისიები."
+    "ka": "დააჭირე ~h~~k~~TOGGLE_SUBMISSIONS~ ღილაკს~w~, რათა ჩართოთ ან გამორთოთ პარამედიკოსის მისიები."
   },
   "ATUTOR2": {
     "en": "~g~Drive the patients to Hospital CAREFULLY. Each bump reduces their chances of survival.",
@@ -757,7 +757,7 @@
   "ATUTOR3": {
     "en": "Press the ~h~~k~~TOGGLE_SUBMISSIONS~ button~w~ to toggle Paramedic missions on or off.",
     "ru": "Чтобы получить задание Скорой или отказаться от него нажми ~h~~k~~TOGGLE_SUBMISSIONS~~w~.",
-    "ka": "დააჭირეთ ~h~~k~~TOGGLE_SUBMISSIONS~ ღილაკს~w~, რათა ჩართოთ ან გამორთოთ პარამედიკოსის მისიები."
+    "ka": "დააჭირე ~h~~k~~TOGGLE_SUBMISSIONS~ ღილაკს~w~, რათა ჩართოთ ან გამორთოთ პარამედიკოსის მისიები."
   },
   "AUG": {
     "en": "Aug",
@@ -907,22 +907,22 @@
   "BOATIN1": {
     "en": "Jump into a boat and press the ~h~~k~~VEHICLE_ENTER_EXIT~ button ~w~to get in.",
     "ru": "Запрыгни в катер и нажми ~h~~k~~VEHICLE_ENTER_EXIT~~w~ чтобы сесть за руль.",
-    "ka": "გადახტით ნავში და დააჭირეთ ~h~~k~~VEHICLE_ENTER_EXIT~ ღილაკს ~w~მასში ჩასასვლელად."
+    "ka": "გადახტით ნავში და დააჭირე ~h~~k~~VEHICLE_ENTER_EXIT~ ღილაკს ~w~მასში ჩასასვლელად."
   },
   "BOATIN2": {
     "en": "You can press the ~h~~k~~VEHICLE_ENTER_EXIT~ button ~w~if you are near a boat to get in it.",
     "ru": "Если ты рядом с катером, то нажми ~h~~k~~VEHICLE_ENTER_EXIT~~w~, чтобы в него сесть.",
-    "ka": "თუ ნავის მახლობლად იმყოფებით, თქვენ შეგიძლიათ დააჭიროთ ~h~~k~~VEHICLE_ENTER_EXIT~ ღილაკს ~w~მასში ჩასასვლელად."
+    "ka": "თუ ნავის მახლობლად იმყოფები, შენ შეგიძლია დააჭირო ~h~~k~~VEHICLE_ENTER_EXIT~ ღილაკს ~w~მასში ჩასასვლელად."
   },
   "BOATIN3": {
     "en": "Jump into a boat and press the ~h~~k~~VEHICLE_ENTER_EXIT~ button ~w~to get in.",
     "ru": "Запрыгни в катер и нажми ~h~~k~~VEHICLE_ENTER_EXIT~~w~ чтобы сесть за руль.",
-    "ka": "გადახტით ნავში და დააჭირეთ ~h~~k~~VEHICLE_ENTER_EXIT~ ღილაკს ~w~მასში ჩასასვლელად."
+    "ka": "გადახტი ნავში და დააჭირე ~h~~k~~VEHICLE_ENTER_EXIT~ ღილაკს ~w~მასში ჩასასვლელად."
   },
   "BOATIN4": {
     "en": "You can press the ~h~~k~~VEHICLE_ENTER_EXIT~ button ~w~if you are near a boat to get in it.",
     "ru": "Если ты рядом с катером, то нажми ~h~~k~~VEHICLE_ENTER_EXIT~~w~, чтобы в него сесть.",
-    "ka": "თუ ნავის მახლობლად იმყოფებით, თქვენ შეგიძლიათ დააჭიროთ ~h~~k~~VEHICLE_ENTER_EXIT~ ღილაკს ~w~მასში ჩასასვლელად."
+    "ka": "თუ ნავის მახლობლად იმყოფები, შენ შეგიძლია დააჭირო ~h~~k~~VEHICLE_ENTER_EXIT~ ღილაკს ~w~მასში ჩასასვლელად."
   },
   "BOBCAT": {
     "en": "Bobcat",
@@ -937,7 +937,7 @@
   "BOMB1": {
     "en": "8-Ball's Garage",
     "ru": "Гараж Лысого",
-    "ka": "8-ბურთის ავტოფარეხი"
+    "ka": "მელოტის ავტოფარეხი"
   },
   "BONUS": {
     "en": "~g~BONUS $~1~",
@@ -992,12 +992,12 @@
   "CAM_A": {
     "en": "Press the ~h~~k~~CAMERA_CHANGE_VIEW_ALL_SITUATIONS~ button~w~ to change ~h~camera ~w~modes when on foot or in a vehicle.",
     "ru": "Чтобы сменить расположение ~h~камеры~w~, нажми ~h~~k~~CAMERA_CHANGE_VIEW_ALL_SITUATIONS~~w~.",
-    "ka": "დააჭირეთ ~h~~k~~CAMERA_CHANGE_VIEW_ALL_SITUATIONS~ ღილაკს~w~ ~h~კამერის ~w~რეჟიმების შესაცვლელად, როცა ფეხით ან მანქანაში ხართ."
+    "ka": "დააჭირე ~h~~k~~CAMERA_CHANGE_VIEW_ALL_SITUATIONS~ ღილაკს~w~ ~h~კამერის ~w~რეჟიმების შესაცვლელად, როცა ფეხით ან მანქანაში ხართ."
   },
   "CAM_B": {
     "en": "Press the ~h~directional button up~w~ and ~h~down~w~ to change ~h~camera ~w~modes when on foot or in a vehicle.",
     "ru": "Чтобы сменить расположение ~h~камеры~w~, нажми ~h~~k~~CAMERA_CHANGE_VIEW_ALL_SITUATIONS~~w~.",
-    "ka": "დააჭირეთ ~h~მიმართულების ღილაკს ზემოთ~w~ და ~h~down~w~, რათა შეცვალოთ ~h~კამერის ~w~რეჟიმები ფეხით ან მანქანაში ყოფნისას."
+    "ka": "დააჭირე ~h~მიმართულების ღილაკს ზემოთ~w~ და ~h~down~w~, რათა შეცვალოთ ~h~კამერის ~w~რეჟიმები ფეხით ან მანქანაში ყოფნისას."
   },
   "CARSOFF": {
     "en": "Cars turned off.",
@@ -2157,7 +2157,7 @@
   "CRED119": {
     "en": "GURU AS 8-BALL",
     "ru": "GURU AS 8-BALL",
-    "ka": "გურუ როგორც 8-ბურთი"
+    "ka": "გურუ როგორც მელოტი"
   },
   "CRED120": {
     "en": "SONDRA JAMES AS MOMMA",
@@ -2947,7 +2947,7 @@
   "CRUSH": {
     "en": "Park in the marked area and exit your vehicle. The vehicle will then be crushed.",
     "ru": "Поставь машину в голубой круг и выйди из нее. После этого машина будет утилизирована.",
-    "ka": "გააჩერეთ მონიშნულ ადგილას და გამოდით თქვენი მანქანიდან. ამის შემდეგ მანქანა დაიმსხვრევა."
+    "ka": "გააჩერე მონიშნულ ადგილას და გამოდი მანქანიდან. ამის შემდეგ მანქანა გადამუშავდება."
   },
   "CR_1": {
     "en": "Crane cannot lift this vehicle.",
@@ -2962,12 +2962,12 @@
   "CTUTOR": {
     "en": "Press the ~h~~k~~TOGGLE_SUBMISSIONS~ button~w~ to toggle Vigilante missions on or off.",
     "ru": "Нажми ~h~~k~~TOGGLE_SUBMISSIONS~~w~, чтобы заняться работой полицейского или отказаться от нее.",
-    "ka": "დააჭირეთ ~h~~k~~TOGGLE_SUBMISSIONS~ ღილაკს~w~, რათა ჩართო ან გამორთო პოლიციის მისიები."
+    "ka": "დააჭირე ~h~~k~~TOGGLE_SUBMISSIONS~ ღილაკს~w~, რათა ჩართო ან გამორთო პოლიციის მისიები."
   },
   "CTUTOR2": {
     "en": "Press the ~h~~k~~TOGGLE_SUBMISSIONS~ button~w~ to toggle Vigilante missions on or off.",
     "ru": "Нажми ~h~~k~~TOGGLE_SUBMISSIONS~~w~, чтобы заняться работой полицейского или отказаться от нее.",
-    "ka": "დააჭირეთ ~h~~k~~TOGGLE_SUBMISSIONS~ ღილაკს~w~, რათა ჩართო ან გამორთო პოლიციის მისიები."
+    "ka": "დააჭირე ~h~~k~~TOGGLE_SUBMISSIONS~ ღილაკს~w~, რათა ჩართო ან გამორთო პოლიციის მისიები."
   },
   "CULREC": {
     "en": "CCullZones::RecalculateCullZoneData()",
@@ -2977,12 +2977,12 @@
   "CVT_CRT": {
     "en": "Cannot convert textures for your video card. You must login to an Administrator account to do this. Press ESC to quit.",
     "ru": "Конвертация текстур не выполнена. Чтобы ее выполнить, вам нужно войти под администраторским паролем. Нажмите ESC для отмены.",
-    "ka": "თქვენი ვიდეო ბარათისთვის ტექსტურების კონვერტაცია შეუძლებელია. ამისათვის თქვენ უნდა შეხვიდეთ ადმინისტრატორის ანგარიშზე. გასასვლელად დააჭირეთ ESC-ს."
+    "ka": "თქვენი ვიდეო ბარათისთვის ტექსტურების კონვერტაცია შეუძლებელია. ამისათვის თქვენ უნდა შეხვიდეთ ადმინისტრატორის ანგარიშზე. გასასვლელად დააჭირე ESC-ს."
   },
   "CVT_ERR": {
     "en": "You have run out of disk space. Please make some space on your harddisk before continuing. Press ESC to cancel.",
     "ru": "У вас закончилось место на жестком диске. Пожалуйста, освободите место перед запуском игры. Нажмите ESC для отмены.",
-    "ka": "თქვენ ამოგეწურათ დისკის ადგილი. გთხოვთ, გააგრძელოთ გარკვეული ადგილი თქვენს მყარ დისკზე. გასაუქმებლად დააჭირეთ ESC-ს."
+    "ka": "თქვენ ამოგეწურათ დისკის ადგილი. გთხოვთ, გააგრძელოთ გარკვეული ადგილი თქვენს მყარ დისკზე. გასაუქმებლად დააჭირე ESC-ს."
   },
   "CVT_MSG": {
     "en": "Converting textures to optimal format for your video card",
@@ -3387,12 +3387,12 @@
   "DRIVE_A": {
     "en": "Have an Uzi selected when entering a vehicle then look left or right and press the ~h~~k~~PED_FIREWEAPON~ button~w~ to fire.",
     "ru": "Садясь в машину, возьми в руки Узи. Посмотри вправо или влево и нажми ~h~~k~~VEHICLE_FIREWEAPON~~w~ для выстрела.",
-    "ka": "მანქანაში შესვლისას აირჩიეთ უზი, შემდეგ გაიხედე მარცხნივ ან მარჯვნივ და დააჭირეთ ~h~~k~~PED_FIREWEAPON~ ღილაკს~w~ რომ გაისროლო."
+    "ka": "მანქანაში შესვლისას აირჩიეთ უზი, შემდეგ გაიხედე მარცხნივ ან მარჯვნივ და დააჭირე ~h~~k~~PED_FIREWEAPON~ ღილაკს~w~ რომ გაისროლო."
   },
   "DRIVE_B": {
     "en": "Have an Uzi selected when entering a vehicle then look left or right and press the ~h~~k~~PED_FIREWEAPON~ button~w~ to fire.",
     "ru": "Садясь в машину, возьми в руки Узи. Посмотри вправо или влево и нажми ~h~~k~~VEHICLE_FIREWEAPON~~w~ для выстрела.",
-    "ka": "მანქანაში შესვლისას აირჩიეთ უზი, შემდეგ გაიხედე მარცხნივ ან მარჯვნივ და დააჭირეთ ~h~~k~~PED_FIREWEAPON~ ღილაკს~w~ რომ გაისროლო."
+    "ka": "მანქანაში შესვლისას აირჩიეთ უზი, შემდეგ გაიხედე მარცხნივ ან მარჯვნივ და დააჭირე ~h~~k~~PED_FIREWEAPON~ ღილაკს~w~ რომ გაისროლო."
   },
   "DSPLAY": {
     "en": "Display",
@@ -3422,12 +3422,12 @@
   "EBAL_1": {
     "en": "Press the~h~ ~k~~VEHICLE_ENTER_EXIT~ button~w~ to ~h~enter ~w~or ~h~exit~w~ a vehicle.",
     "ru": "Нажми ~h~~k~~VEHICLE_ENTER_EXIT~~w~, чтобы ~h~сесть за руль ~w~или ~h~выйти~w~ из машины.",
-    "ka": "დააჭირეთ ~h~ ~k~~VEHICLE_ENTER_EXIT~ ღილაკს~w~, რათა ~h~შეხვიდეთ ~w~ან ~h~გასვლა~w~ მანქანაში."
+    "ka": "დააჭირე ~h~ ~k~~VEHICLE_ENTER_EXIT~ ღილაკს~w~, რათა ~h~შეხვიდეთ ~w~ან ~h~გასვლა~w~ მანქანაში."
   },
   "EBAL_1B": {
     "en": "Press the~h~ ~k~~VEHICLE_ENTER_EXIT~ button~w~ to ~h~enter ~w~or ~h~exit~w~ a vehicle.",
     "ru": "Нажми ~h~~k~~VEHICLE_ENTER_EXIT~~w~, чтобы ~h~сесть за руль ~w~или ~h~выйти~w~ из машины.",
-    "ka": "დააჭირეთ ~h~ ~k~~VEHICLE_ENTER_EXIT~ ღილაკს~w~, რათა ~h~შეხვიდეთ ~w~ან ~h~გასვლა~w~ მანქანაში."
+    "ka": "დააჭირე ~h~ ~k~~VEHICLE_ENTER_EXIT~ ღილაკს~w~, რათა ~h~შეხვიდეთ ~w~ან ~h~გასვლა~w~ მანქანაში."
   },
   "EBAL_2": {
     "en": "~g~Get back into the car!",
@@ -3437,7 +3437,7 @@
   "EBAL_3": {
     "en": "This is the ~h~radar~w~. Use it to navigate the city, follow the ~h~blip~w~ on the ~h~radar~w~ to find the hideout!",
     "ru": "Это ~h~радар~w~. Он очень полезен для навигации в городе. Сейчас ~h~цветная отметка~w~ на нем показывает расположение укрытия!",
-    "ka": "ეს არის ~h~რადარი~w~. გამოიყენეთ იგი ქალაქში ნავიგაციისთვის, მიჰყევით ~h~კვადრატს~w~ ~h~რადარზე~w~, რათა იპოვოთ სამალავი!"
+    "ka": "ეს არის ~h~რადარი~w~. გამოიყენე იგი ქალაქში ნავიგაციისთვის, მიჰყევი ~h~კვადრატს~w~ ~h~რადარზე~w~, რათა იპოვო სამალავი!"
   },
   "EBAL_4": {
     "en": "~r~8-Ball's dead!",
@@ -4357,7 +4357,7 @@
   "FEC_LBC": {
     "en": "Use Look Left With Look Right.",
     "ru": "Нажать взгляд Влево и Вправо.",
-    "ka": "გამოიყენეთ მარცხნივ ხედვა მარჯვნივ."
+    "ka": "გამოიყენე მარცხნივ და მარჯვნივ გახედვა."
   },
   "FEC_LBH": {
     "en": "Look Behind Vehicle",
@@ -4652,12 +4652,12 @@
   "FEC_PTL": {
     "en": "Use LockTarget with Weapon Switch Left.",
     "ru": "Use LockTarget with Weapon Switch Left.",
-    "ka": "გამოიყენეთ LockTarget იარაღის გადამრთველით მარცხნივ."
+    "ka": "გამოიყენე LockTarget იარაღის გადამრთველით მარცხნივ."
   },
   "FEC_PTR": {
     "en": "Use LockTarget with Weapon Switch Right.",
     "ru": "Use LockTarget with Weapon Switch Right.",
-    "ka": "გამოიყენეთ LockTarget იარაღის გადართვის მარჯვნივ."
+    "ka": "გამოიყენე LockTarget იარაღის გადართვის მარჯვნივ."
   },
   "FEC_PTT": {
     "en": "Previous target",
@@ -6802,12 +6802,12 @@
   "FM3_4": {
     "en": "~g~Stop the vehicle and let 8-Ball out!",
     "ru": "~g~Останови тачку и дай Лысому выйти!",
-    "ka": "~g~გააჩერე მანქანა და გადმოსვი 8-ბურთი!"
+    "ka": "~g~გააჩერე მანქანა და გადმოსვი მელოტი!"
   },
   "FM3_7": {
     "en": "~r~8-Ball's been iced!",
     "ru": "~r~Лысого замочили!",
-    "ka": "~r~8-ბურთი დაბრიდეს!"
+    "ka": "~r~მელოტი დაბრიდეს!"
   },
   "FM3_8": {
     "en": "~r~The guards have been alerted!",
@@ -7032,17 +7032,17 @@
   "FTUTOR": {
     "en": "Press the ~h~~k~~TOGGLE_SUBMISSIONS~ button~w~ to toggle fire truck missions on or off.",
     "ru": "Нажми кнопку ~h~~k~~TOGGLE_SUBMISSIONS~~w~, чтобы заняться работой пожарного, или отказаться от нее.",
-    "ka": "დააჭირეთ ~h~~k~~TOGGLE_SUBMISSIONS~ ღილაკს~w~, რათა ჩართოთ ან გამორთოთ სახანძრო მანქანების მისიები."
+    "ka": "დააჭირე ~h~~k~~TOGGLE_SUBMISSIONS~ ღილაკს~w~, რათა ჩართოთ ან გამორთოთ სახანძრო მანქანების მისიები."
   },
   "FTUTOR2": {
     "en": "Press the ~h~~k~~TOGGLE_SUBMISSIONS~ button~w~ to toggle fire truck missions on or off.",
     "ru": "Нажми кнопку ~h~~k~~TOGGLE_SUBMISSIONS~~w~, чтобы заняться работой пожарного, или отказаться от нее.",
-    "ka": "დააჭირეთ ~h~~k~~TOGGLE_SUBMISSIONS~ ღილაკს~w~, რათა ჩართოთ ან გამორთოთ სახანძრო მანქანების მისიები."
+    "ka": "დააჭირე ~h~~k~~TOGGLE_SUBMISSIONS~ ღილაკს~w~, რათა ჩართოთ ან გამორთოთ სახანძრო მანქანების მისიები."
   },
   "F_CANC": {
     "en": "~r~Fire Fighter mission cancelled!",
     "ru": "~r~Задание пожарного прервано!",
-    "ka": "~r~Fire Fighter-ის მისია გაუქმდა!"
+    "ka": "~r~მეხანძრის მისია გაუქმდა!"
   },
   "F_EXTIN": {
     "en": "FIRES:",
@@ -7052,7 +7052,7 @@
   "F_FAIL1": {
     "en": "Fire Truck mission ended.",
     "ru": "Задание не выполнено.",
-    "ka": "სახანძრო მანქანის მისია დასრულდა."
+    "ka": "მეხანძრის მისია დასრულდა."
   },
   "F_FAIL2": {
     "en": "~r~You're too late!",
@@ -7072,7 +7072,7 @@
   "F_START": {
     "en": "~g~Burning vehicle reported in the ~a~ area. Go and extinguish the fire.",
     "ru": "~g~Место возгорания машины: ~a~. Езжай и сбей огонь.",
-    "ka": "~g~იწვის მანქანა დაფიქსირდა ~a~ ტერიტორიაზე. წადი და ჩააქრეთ ცეცხლი."
+    "ka": "~g~ხანძრის გაჩენის ადგილი: ~a~. წადი და ჩააქრე ცეცხლი."
   },
   "F_WASTE": {
     "en": "Civilian females wasted",
@@ -7187,12 +7187,12 @@
   "GA_6": {
     "en": "Park it, prime it by pressing the ~h~~k~~PED_FIREWEAPON~ button~w~ and LEG IT!",
     "ru": "Припаркуй тачку на место, нажми ~h~~k~~VEHICLE_FIREWEAPON~~w~ и ДЕЛАЙ НОГИ!",
-    "ka": "გააჩერეთ იგი, დაარეგისტრირეთ ~h~~k~~PED_FIREWEAPON~ ღილაკზე~w~ და დააჭერით!"
+    "ka": "გააჩერე იგი, დაარეგისტრირე ~h~~k~~PED_FIREWEAPON~ ღილაკზე~w~ და დატყდი!"
   },
   "GA_6B": {
     "en": "Park it, prime it by pressing the ~h~~k~~PED_FIREWEAPON~ button~w~ and LEG IT!",
     "ru": "Припаркуй тачку на место, нажми ~h~~k~~VEHICLE_FIREWEAPON~~w~ и ДЕЛАЙ НОГИ!",
-    "ka": "გააჩერეთ იგი, დაარეგისტრირეთ ~h~~k~~PED_FIREWEAPON~ ღილაკზე~w~ და დააჭერით!"
+    "ka": "გააჩერე იგი, დაარეგისტრირე ~h~~k~~PED_FIREWEAPON~ ღილაკზე~w~ და დატყდი!"
   },
   "GA_7": {
     "en": "Arm with ~h~~k~~PED_FIREWEAPON~ button~w~. Bomb will go off when engine is started.",
@@ -7207,7 +7207,7 @@
   "GA_8": {
     "en": "Use the detonator to activate the bomb.",
     "ru": "Взорви бомбу с помощью детонатора.",
-    "ka": "გამოიყენეთ დეტონატორი ბომბის გასააქტიურებლად."
+    "ka": "გამოიყენე დეტონატორი ბომბის გასააქტიურებლად."
   },
   "GA_9": {
     "en": "You collected ~1~ out of 10 special cars",
@@ -7392,47 +7392,47 @@
   "GUN_1A": {
     "en": "Use the ~h~~k~~PED_CYCLE_WEAPON_RIGHT~ button ~w~and the ~h~~k~~PED_CYCLE_WEAPON_LEFT~ button ~w~to cycle through your weapons.",
     "ru": "Для смены оружия используй ~h~~k~~PED_CYCLE_WEAPON_RIGHT~~w~ и ~h~~k~~PED_CYCLE_WEAPON_LEFT~.",
-    "ka": "გამოიყენეთ ~h~~k~~PED_CYCLE_WEAPON_RIGHT~ ღილაკი ~w~და ~h~~k~~PED_CYCLE_WEAPON_LEFT~ ღილაკი ~w~თქვენს იარაღში გადასასვლელად."
+    "ka": "გამოიყენე ~h~~k~~PED_CYCLE_WEAPON_RIGHT~ ღილაკი ~w~და ~h~~k~~PED_CYCLE_WEAPON_LEFT~ ღილაკი ~w~თქვენს იარაღში გადასასვლელად."
   },
   "GUN_2A": {
     "en": "Hold the ~h~~k~~PED_LOCK_TARGET~ button ~w~to ~h~auto-target~w~, press the~h~ ~k~~PED_FIREWEAPON~ button ~w~to ~h~fire! Try shooting the targets...",
     "ru": "Держи ~h~~k~~PED_LOCK_TARGET~~w~, чтобы ~h~прицелиться~w~, а затем нажимай ~h~~k~~PED_FIREWEAPON~~w~, чтобы выстрелить! Потренируйся на мишенях...",
-    "ka": "დააჭირეთ ღილაკს ~h~~k~~PED_LOCK_TARGET~ ~w~to ~h~auto-target~w~, დააჭირეთ ~h~ ~k~~PED_FIREWEAPON~ ღილაკს ~w~to ~h~ცეცხლი! სცადეთ სამიზნეების სროლა..."
+    "ka": "დააჭირე ღილაკს ~h~~k~~PED_LOCK_TARGET~ ~w~to ~h~auto-target~w~, დააჭირე ~h~ ~k~~PED_FIREWEAPON~ ღილაკს ~w~to ~h~ცეცხლი! სცადეთ სამიზნეების სროლა..."
   },
   "GUN_2C": {
     "en": "Hold the ~h~~k~~PED_LOCK_TARGET~ button ~w~to ~h~auto-target~w~, press the~h~ ~k~~PED_FIREWEAPON~ button ~w~to ~h~fire! Try shooting the targets...",
     "ru": "Держи ~h~~k~~PED_LOCK_TARGET~~w~, чтобы ~h~прицелиться~w~, а затем нажимай ~h~~k~~PED_FIREWEAPON~~w~, чтобы выстрелить! Потренируйся на мишенях...",
-    "ka": "დააჭირეთ ღილაკს ~h~~k~~PED_LOCK_TARGET~ ~w~to ~h~auto-target~w~, დააჭირეთ ~h~ ~k~~PED_FIREWEAPON~ ღილაკს ~w~to ~h~ცეცხლი! სცადეთ სამიზნეების სროლა..."
+    "ka": "დააჭირე ღილაკს ~h~~k~~PED_LOCK_TARGET~ ~w~to ~h~auto-target~w~, დააჭირე ~h~ ~k~~PED_FIREWEAPON~ ღილაკს ~w~to ~h~ცეცხლი! სცადეთ სამიზნეების სროლა..."
   },
   "GUN_2D": {
     "en": "Hold the ~h~~k~~PED_LOCK_TARGET~ button ~w~to ~h~auto-target~w~, press the~h~ ~k~~PED_FIREWEAPON~ button ~w~to ~h~fire! Try shooting the targets...",
     "ru": "Держи ~h~~k~~PED_LOCK_TARGET~~w~ чтобы ~h~прицелиться~w~, а затем нажимай ~h~~k~~PED_FIREWEAPON~~w~ чтобы выстрелить! Потренируйся на мишенях...",
-    "ka": "დააჭირეთ ღილაკს ~h~~k~~PED_LOCK_TARGET~ ~w~to ~h~auto-target~w~, დააჭირეთ ~h~ ~k~~PED_FIREWEAPON~ ღილაკს ~w~to ~h~ცეცხლი! სცადეთ სამიზნეების სროლა..."
+    "ka": "დააჭირე ღილაკს ~h~~k~~PED_LOCK_TARGET~ ~w~to ~h~auto-target~w~, დააჭირე ~h~ ~k~~PED_FIREWEAPON~ ღილაკს ~w~to ~h~ცეცხლი! სცადეთ სამიზნეების სროლა..."
   },
   "GUN_3A": {
     "en": "While holding the ~h~~k~~PED_LOCK_TARGET~ button,~w~ press the ~h~~k~~PED_CYCLE_TARGET_LEFT~ button~w~ or the ~h~~k~~PED_CYCLE_TARGET_RIGHT~ button to switch target.",
     "ru": "Чтобы сменить цель, удерживая ~h~~k~~PED_LOCK_TARGET~~w~, нажимай ~h~~k~~PED_CYCLE_TARGET_LEFT~~w~ или ~h~~k~~PED_CYCLE_TARGET_RIGHT~~w~.",
-    "ka": "~h~~k~~PED_LOCK_TARGET~ ღილაკზე ~w~ დააჭირეთ ~h~~k~~PED_CYCLE_TARGET_LEFT~ ღილაკს~w~ ან ~h~~k~~PED_CYCLE_TARGET_RIGHT~ ღილაკზე სამიზნის გადასართავად."
+    "ka": "~h~~k~~PED_LOCK_TARGET~ ღილაკზე ~w~ დააჭირე ~h~~k~~PED_CYCLE_TARGET_LEFT~ ღილაკს~w~ ან ~h~~k~~PED_CYCLE_TARGET_RIGHT~ ღილაკზე სამიზნის გადასართავად."
   },
   "GUN_3B": {
     "en": "While holding the ~h~~k~~PED_LOCK_TARGET~ button,~w~ press the ~h~~k~~PED_CYCLE_TARGET_LEFT~ button~w~ or the ~h~~k~~PED_CYCLE_TARGET_RIGHT~ button to switch target.",
     "ru": "Чтобы сменить цель, удерживая ~h~~k~~PED_LOCK_TARGET~~w~, нажимай ~h~~k~~PED_CYCLE_TARGET_LEFT~~w~ или ~h~~k~~PED_CYCLE_TARGET_RIGHT~~w~.",
-    "ka": "~h~~k~~PED_LOCK_TARGET~ ღილაკზე ~w~ დააჭირეთ ~h~~k~~PED_CYCLE_TARGET_LEFT~ ღილაკს~w~ ან ~h~~k~~PED_CYCLE_TARGET_RIGHT~ ღილაკზე სამიზნის გადასართავად."
+    "ka": "~h~~k~~PED_LOCK_TARGET~ ღილაკზე ~w~ დააჭირე ~h~~k~~PED_CYCLE_TARGET_LEFT~ ღილაკს~w~ ან ~h~~k~~PED_CYCLE_TARGET_RIGHT~ ღილაკზე სამიზნის გადასართავად."
   },
   "GUN_4A": {
     "en": "While holding the ~h~~k~~PED_LOCK_TARGET~ button~w~ you can walk or run while remaining locked onto a target.",
     "ru": "Когда ты держишь ~h~~k~~PED_LOCK_TARGET~~w~, то можешь ходить или бегать, не выпуская цель из перекрестия.",
-    "ka": "~h~~k~~PED_LOCK_TARGET~ ღილაკზე ~w~ დაჭერისას შეგიძლიათ იაროთ ან ირბინოთ მიზანზე ჩაკეტილი დარჩენის დროს."
+    "ka": "~h~~k~~PED_LOCK_TARGET~ ღილაკზე ~w~ დაჭერისას შეგიძლია იარო ან ირბინო მიზანზე ჩაკეტილი დარჩენის დროს."
   },
   "GUN_4B": {
     "en": "While holding the ~h~~k~~PED_LOCK_TARGET~ button~w~ you can walk or run while remaining locked onto a target.",
     "ru": "Когда ты держишь ~h~~k~~PED_LOCK_TARGET~~w~, то можешь ходить или бегать, не выпуская цель из перекрестия.",
-    "ka": "~h~~k~~PED_LOCK_TARGET~ ღილაკზე ~w~ დაჭერისას შეგიძლიათ იაროთ ან ირბინოთ მიზანზე ჩაკეტილი დარჩენის დროს."
+    "ka": "~h~~k~~PED_LOCK_TARGET~ ღილაკზე ~w~ დაჭერისას შეგიძლია იარო ან ირბინო მიზანზე ჩაკეტილი დარჩენის დროს."
   },
   "GUN_5": {
     "en": "You can practice targeting and shooting on these paper targets. When you are finished resume the mission.",
     "ru": "Ты можешь попрактиковаться на этих мишенях в прицеливании и стрельбе. Как только закончишь - возвращайся к заданию.",
-    "ka": "შეგიძლიათ ივარჯიშოთ დამიზნებისა და სროლის ამ ქაღალდის სამიზნეებზე. როდესაც დაასრულებთ, განაახლეთ მისია."
+    "ka": "შეგიძლია ივარჯიშო დამიზნებასა და სროლაში ამ ქაღალდის სამიზნეებით. როდესაც დაასრულებ - დაუბრუნდი მისიას."
   },
   "HARWOOD": {
     "en": "Harwood",
@@ -7477,17 +7477,17 @@
   "HEAL_B": {
     "en": "When you are ~h~'wasted'~w~ you are returned to the nearest hospital.",
     "ru": "Когда ты ~h~вырубаешься,~w~ тебя отвозят в ближайший госпиталь",
-    "ka": "როდესაც თქვენ ~h~'დაიბრიდებით'~w~ თქვენ დაბრუნდებით უახლოეს საავადმყოფოში."
+    "ka": "როდესაც შენ ~h~'დაიბრიდები'~w~ შენ დაბრუნდები უახლოეს საავადმყოფოში."
   },
   "HEAL_C": {
     "en": "You will lose your weapons and the doctors will take some cash for patching you up.",
     "ru": "При этом ты теряешь все свое оружие и доктора берут с тебя немного денег за лечение.",
-    "ka": "თქვენ დაკარგავთ იარაღებს და ექიმები წაგართმევენ ფულს."
+    "ka": "შენ დაკარგავ იარაღებს და ექიმები წაგართმევენ ფულს."
   },
   "HEAL_E": {
     "en": "You will find ways of healing or protecting yourself the more you play the game.",
     "ru": "Во время игры ты найдешь способы, как подлечиться или сберечь свое здоровье.",
-    "ka": "თამაშის მსვლელობისას თქვენ იპოვით განკურნების ან თავის დაცვის გზებს."
+    "ka": "თამაშის მსვლელობისას შენ იპოვი განკურნების ან თავის დაცვის გზებს."
   },
   "HED_EX": {
     "en": "Heads exploded",
@@ -7502,7 +7502,7 @@
   "HELP1": {
     "en": "Stop in the center of the blue marker.",
     "ru": "Остановите машину в центре голубого круга.",
-    "ka": "გააჩერეთ ლურჯი მარკერის ცენტრში."
+    "ka": "გააჩერე ლურჯი მარკერის ცენტრში."
   },
   "HELP10": {
     "en": "This badge indicates you have a police wanted level.",
@@ -7517,12 +7517,12 @@
   "HELP12": {
     "en": "Walk into the center of the blue marker to trigger a mission.",
     "ru": "Войди в голубой круг, чтобы получить новое задание.",
-    "ka": "შედით ცისფერი მარკერის ცენტრში რათა გააქტიუროთ მისია."
+    "ka": "შედი ცისფერი მარკერის ცენტრში რათა მისია გააქტიურო."
   },
   "HELP13": {
     "en": "Sometimes you may need to use pathways not shown on the radar.",
     "ru": "Иногда тебе придется ехать по дорогам, которые не показаны на радаре.",
-    "ka": "ზოგჯერ შეიძლება დაგჭირდეთ რადარზე ნაჩვენები გზების გამოყენება."
+    "ka": "ზოგჯერ შეიძლება დაგჭირდეს რადარზე ნაჩვენები გზების გამოყენება."
   },
   "HELP14": {
     "en": "To collect weapons walk through them. These cannot be collected while in a vehicle.",
@@ -7532,32 +7532,32 @@
   "HELP15": {
     "en": "When on foot press the ~h~~k~~PED_LOOKBEHIND~ button~w~ to ~h~look behind~w~.",
     "ru": "Когда ты без машины, то, нажав ~h~~k~~PED_LOOKBEHIND~~w~, можешь ~h~оглянуться назад~w~.",
-    "ka": "როდესაც ფეხით ხართ, დააჭირეთ ~h~~k~~PED_LOOKBEHIND~ ღილაკს~w~ რათა ~h~გაიხედოთ უკან~w~."
+    "ka": "როდესაც ფეხით ხარ, დააჭირე ~h~~k~~PED_LOOKBEHIND~ ღილაკს~w~ რათა ~h~გაიხედოთ უკან~w~."
   },
   "HELP2_A": {
     "en": "Press the ~h~/ button~w~ when running to ~h~sprint.",
     "ru": "Чтобы ~h~разогнаться~w~, держи ~h~кнопку /~w~ во время бега.",
-    "ka": "დააჭირეთ ~h~/ ღილაკს~w~ ~h~sprint-ზე გაშვებისას."
+    "ka": "დააჭირე ~h~/ ღილაკს~w~ ~h~sprint-ზე გაშვებისას."
   },
   "HELP3": {
     "en": "You can only sprint for short periods before becoming tired.",
     "ru": "Мчаться ты можешь лишь до тех пор, пока не устанешь.",
-    "ka": "თქვენ შეგიძლიათ სპრინტი მხოლოდ მცირე პერიოდებით, სანამ არ დაიღალებით."
+    "ka": "შენ შეგიძლია სპრინტი მხოლოდ მცირე პერიოდებით, სანამ არ დაიღალები."
   },
   "HELP4_A": {
     "en": "Press the~h~ ~k~~VEHICLE_ACCELERATE~ button~w~ to ~h~accelerate.",
     "ru": "Чтобы ~h~поехать вперед~w~, держи кнопку ~h~ ~k~~VEHICLE_ACCELERATE~~w~.",
-    "ka": "დააჭირეთ~h~ ~k~~VEHICLE_ACCELERATE~ ღილაკს~w~ რომ ~h~აჩქარდეთ."
+    "ka": "დააჭირე~h~ ~k~~VEHICLE_ACCELERATE~ ღილაკს~w~ რომ ~h~აჩქარდე."
   },
   "HELP4_D": {
     "en": "Push the~h~ right analog stick~w~ up to ~h~accelerate.",
     "ru": "Push the~h~ right analog stick~w~ up to ~h~accelerate.",
-    "ka": "დააწექით~h~ მარჯვენა ანალოგური ღილაკს~w~ მაღლა, რომ ~h~აჩქარდეთ."
+    "ka": "დააჭირე~h~ მარჯვენა ანალოგურ ღილაკს~w~ მაღლა, რომ ~h~აჩქარდე."
   },
   "HELP5_A": {
     "en": "Press the~h~ ~k~~VEHICLE_BRAKE~ button~w~ to ~h~brake~w~, or to ~h~reverse~w~ if the vehicle has stopped.",
     "ru": "Держи кнопку~h~ ~k~~VEHICLE_BRAKE~~w~, чтобы ~h~затормозить~w~, или ~h~поехать назад~w~ после того, как машина остановится.",
-    "ka": "დააჭირეთ~h~ ~k~~VEHICLE_BRAKE~ ღილაკს~w~ რომ ~h~დაამუხრუჭოთ~w~, ან ~h~წახვიდეთ უკუ მიმართულებით~w~ თუ მანქანა გაჩერებულია."
+    "ka": "დააჭირე~h~ ~k~~VEHICLE_BRAKE~ ღილაკს~w~ რომ ~h~დაამუხრუჭო~w~, ან ~h~წახვიდე უკუ მიმართულებით~w~ თუ მანქანა გაჩერებულია."
   },
   "HELP5_D": {
     "en": "Pull the ~h~right analog stick~w~ back to ~h~brake~w~, or to ~h~reverse~w~ if the vehicle has stopped.",
@@ -7567,27 +7567,27 @@
   "HELP6_A": {
     "en": "Press the~h~ ~k~~VEHICLE_HANDBRAKE~ button ~w~to apply the vehicle's ~h~handbrake.",
     "ru": "Держи кнопку~h~ ~k~~VEHICLE_HANDBRAKE~~w~, чтобы воспользоваться ~h~ручным тормозом.",
-    "ka": "დააჭირეთ~h~ ~k~~VEHICLE_HANDBRAKE~ ღილაკს ~w~ მანქანის ~h~ხელის მუხრუჭის გამოსაყენებლად."
+    "ka": "დააჭირე~h~ ~k~~VEHICLE_HANDBRAKE~ ღილაკს ~w~ მანქანის ~h~ხელის მუხრუჭის გამოსაყენებლად."
   },
   "HELP6_C": {
     "en": "Press the~h~ ~k~~VEHICLE_HANDBRAKE~ button ~w~to apply the vehicle's ~h~handbrake.",
     "ru": "Держи кнопку~h~ ~k~~VEHICLE_HANDBRAKE~~w~, чтобы воспользоваться ~h~ручным тормозом.",
-    "ka": "დააჭირეთ~h~ ~k~~VEHICLE_HANDBRAKE~ ღილაკს ~w~ მანქანის ~h~ხელის მუხრუჭის გამოსაყენებლად."
+    "ka": "დააჭირე~h~ ~k~~VEHICLE_HANDBRAKE~ ღილაკს ~w~ მანქანის ~h~ხელის მუხრუჭის გამოსაყენებლად."
   },
   "HELP6_D": {
     "en": "Press the~h~ ~k~~VEHICLE_HANDBRAKE~ button ~w~to apply the vehicle's ~h~handbrake.",
     "ru": "Держи кнопку~h~ ~k~~VEHICLE_HANDBRAKE~~w~, чтобы воспользоваться ~h~ручным тормозом.",
-    "ka": "დააჭირეთ~h~ ~k~~VEHICLE_HANDBRAKE~ ღილაკს ~w~ მანქანის ~h~ხელის მუხრუჭის გამოსაყენებლად."
+    "ka": "დააჭირე~h~ ~k~~VEHICLE_HANDBRAKE~ ღილაკს ~w~ მანქანის ~h~ხელის მუხრუჭის გამოსაყენებლად."
   },
   "HELP7_A": {
     "en": "Press and hold the~h~ ~k~~PED_LOCK_TARGET~ button ~w~to ~h~target~w~ with the sniper rifle.",
     "ru": "Нажми и удерживай~h~ ~k~~PED_LOCK_TARGET~~w~ кнопку, чтобы ~h~прицелиться~w~ из снайперской винтовки.",
-    "ka": "დააჭირეთ და დაიკავეთ ~h~ ~k~~PED_LOCK_TARGET~ ღილაკი ~w~რათა ~h~დაუმიზნოთ~w~ სნაიპერული იარაღით."
+    "ka": "დააჭირე და დაიკავეთ ~h~ ~k~~PED_LOCK_TARGET~ ღილაკი ~w~რათა ~h~დაუმიზნოთ~w~ სნაიპერული იარაღით."
   },
   "HELP7_D": {
     "en": "Press and hold the~h~ ~k~~PED_LOCK_TARGET~ button ~w~to ~h~target ~w~with the sniper rifle.",
     "ru": "Нажми и удерживай~h~ ~k~~PED_LOCK_TARGET~~w~ кнопку, чтобы ~h~прицелиться~w~ из снайперской винтовки.",
-    "ka": "დააჭირეთ და ხანგრძლივად დააჭირეთ ~h~ ~k~~PED_LOCK_TARGET~ ღილაკს ~w~რათა ~h~სამიზნე ~w~სნაიპერული იარაღით."
+    "ka": "დააჭირე და ხანგრძლივად დააჭირე ~h~ ~k~~PED_LOCK_TARGET~ ღილაკს ~w~რათა ~h~სამიზნე ~w~სნაიპერული იარაღით."
   },
   "HELP8_A": {
     "en": "Press the~h~ ~k~~PED_SNIPER_ZOOM_IN~ button ~w~to ~h~zoom in ~w~with the rifle and the~h~ ~k~~PED_SNIPER_ZOOM_OUT~ button ~w~to ~h~zoom out ~w~again.",
@@ -7602,17 +7602,17 @@
   "HELP9_A": {
     "en": "Press the~h~ ~k~~PED_FIREWEAPON~ button ~w~to ~h~fire~w~ the sniper rifle.",
     "ru": "Нажми ~h~ ~k~~PED_FIREWEAPON~~w~, чтобы ~h~выстрелить~w~ из снайперской винтовки.",
-    "ka": "დააჭირეთ~h~ ~k~~PED_FIREWEAPON~ ღილაკს ~w~ რომ ~h~ცეცხლი~w~ სნაიპერული შაშხანა."
+    "ka": "დააჭირე~h~ ~k~~PED_FIREWEAPON~ ღილაკს ~w~ რომ ~h~ცეცხლი~w~ სნაიპერული შაშხანა."
   },
   "HELP9_B": {
     "en": "Press the~h~ ~k~~PED_FIREWEAPON~ button ~w~to ~h~fire~w~ the sniper rifle.",
     "ru": "Нажми ~h~ ~k~~PED_FIREWEAPON~~w~, чтобы ~h~выстрелить~w~ из снайперской винтовки.",
-    "ka": "დააჭირეთ~h~ ~k~~PED_FIREWEAPON~ ღილაკს ~w~ რომ ~h~ცეცხლი~w~ სნაიპერული შაშხანა."
+    "ka": "დააჭირე~h~ ~k~~PED_FIREWEAPON~ ღილაკს ~w~ რომ ~h~ცეცხლი~w~ სნაიპერული შაშხანა."
   },
   "HELP9_C": {
     "en": "Press the~h~ ~k~~PED_FIREWEAPON~ button ~w~to ~h~fire~w~ the sniper rifle.",
     "ru": "Нажми ~h~ ~k~~PED_FIREWEAPON~~w~, чтобы ~h~выстрелить~w~ из снайперской винтовки.",
-    "ka": "დააჭირეთ~h~ ~k~~PED_FIREWEAPON~ ღილაკს ~w~ რომ ~h~ცეცხლი~w~ სნაიპერული შაშხანა."
+    "ka": "დააჭირე~h~ ~k~~PED_FIREWEAPON~ ღილაკს ~w~ რომ ~h~ცეცხლი~w~ სნაიპერული შაშხანა."
   },
   "HEL_DST": {
     "en": "Helicopters destroyed",
@@ -7632,7 +7632,7 @@
   "HEY3": {
     "en": "~g~You've dropped your main man, go back and get 8-Ball!",
     "ru": "~g~Ты потерял своего напарника, вернись к Лысому!",
-    "ka": "~g~შენ ჩამოაგდე შენი მთავარი კაცი, დაბრუნდი და აიღე 8-ბურთი!"
+    "ka": "~g~შენ ჩამოაგდე შენი მთავარი კაცი, დაბრუნდი და აიყვანე მელოტი!"
   },
   "HEY4": {
     "en": "~g~Lose Misty and Luigi will lose your face! Go and get her!",
@@ -8072,17 +8072,17 @@
   "HORN1": {
     "en": "Press the ~h~L3 button ~w~to activate the ~h~horn.",
     "ru": "Press the ~h~L3 button ~w~to activate the ~h~horn.",
-    "ka": "დააჭირეთ ~h~L3 ღილაკს ~w~რათა გააქტიუროთ ~h~საყვირი."
+    "ka": "დააჭირე ~h~L3 ღილაკს ~w~რათა გააქტიუროთ ~h~საყვირი."
   },
   "HORN2": {
     "en": "Press the ~h~L1 button ~w~to activate the ~h~horn",
     "ru": "Press the ~h~L1 button ~w~to activate the ~h~horn",
-    "ka": "დააჭირეთ ~h~L1 ღილაკს ~w~რათა გააქტიუროთ ~h~საყვირი"
+    "ka": "დააჭირე ~h~L1 ღილაკს ~w~რათა გააქტიუროთ ~h~საყვირი"
   },
   "HORN3": {
     "en": "Press the ~h~R1 button ~w~to activate the ~h~horn",
     "ru": "Press the ~h~R1 button ~w~to activate the ~h~horn",
-    "ka": "დააჭირეთ ~h~R1 ღილაკს ~w~რათა გააქტიუროთ ~h~საყვირი"
+    "ka": "დააჭირე ~h~R1 ღილაკს ~w~რათა გააქტიუროთ ~h~საყვირი"
   },
   "HOSPI_2": {
     "en": "Rockford",
@@ -8277,7 +8277,7 @@
   "JM1_1": {
     "en": "~g~Take Forelli's car to 8-Ball's garage North of here, behind 'Easy Credit Autos'.",
     "ru": "~g~Отгони машину Форелли в гараж к Лысому, он на севере отсюда за 'Автомобилями в кредит'.",
-    "ka": "~g~მიიყვანე ფორელის მანქანა 8-ბურთის ავტოფარეხში, აქედან ჩრდილოეთით, 'Easy Credit Autos'-ს უკან."
+    "ka": "~g~მიიყვანე ფორელის მანქანა მელოტის ავტოფარეხში, აქედან ჩრდილოეთით, 'Easy Credit Autos'-ს უკან."
   },
   "JM1_2": {
     "en": "~g~Park the car back at Marco's Bistro.",
@@ -8317,7 +8317,7 @@
   "JM1_8B": {
     "en": "~y~The bomb shop's automated. Just drive in, stop your car and the shop will do the rest.",
     "ru": "~y~Здесь все автоматизировано. Просто заезжай внутрь и жди, пока установят бомбу.",
-    "ka": "~y~ბომბის მაღაზია ავტომატიზირებულია. უბრალოდ შემოდით, გააჩერეთ მანქანა და დანარჩენს მაღაზია გააკეთებს."
+    "ka": "~y~ბომბის მაღაზია ავტომატიზირებულია. უბრალოდ შემოდი, გააჩერე მანქანა და დანარჩენს მაღაზია გააკეთებს."
   },
   "JM1_8C": {
     "en": "~y~Here, your first can be free, but after that it'll cost.",
@@ -8357,17 +8357,17 @@
   "JM1_G": {
     "en": "so steal his car and take it to 8-Ball's bomb shop up in Harwood.",
     "ru": "отгони его машину в гараж Лысого, тот что в Харвуде.",
-    "ka": "ასე რომ, მოიპარეთ მისი მანქანა და წაიყვანეთ 8-ბურთის ბომბის მაღაზიაში ჰარვუდში."
+    "ka": "ასე რომ, მოიპარეთ მისი მანქანა და წაიყვანეთ მელოტის ბომბის მაღაზიაში ჰარვუდში."
   },
   "JM1_H": {
     "en": "You know 8-Ball right?",
     "ru": "Ты же знаком с Лысым?",
-    "ka": "8-ბურთი იცი ხომ?"
+    "ka": "მელოტს ხომ იცნობ?"
   },
   "JM1_I": {
     "en": "Once he's fitted it with a bomb, go park the car where you found it.",
     "ru": "Как только он установит бомбу, верни машину туда, где взял.",
-    "ka": "მას შემდეგ რაც იგი ბომბს დაამონტაჟებს, წადით და გააჩერეთ მანქანა იქ საიდანაც აიღე."
+    "ka": "მას შემდეგ რაც იგი ბომბს დაამონტაჟებს, წადი და გააჩერე მანქანა იქ საიდანაც აიღე."
   },
   "JM1_J": {
     "en": "Then sit back and watch the whole show.",
@@ -9232,7 +9232,7 @@
   "LM1_7": {
     "en": "Stop the vehicle next to Misty and allow her to enter it.",
     "ru": "Остановись рядом с Мисти и подожди, пока она не сядет в тачку.",
-    "ka": "გააჩერეთ მანქანა მისტის გვერდით და მიეცი საშუალება მასში ჩაჯდომის."
+    "ka": "გააჩერე მანქანა მისტის გვერდით და მიეცი საშუალება მასში ჩაჯდომის."
   },
   "LM1_8": {
     "en": "You can go and see Luigi for more work or check out Liberty City.",
@@ -9252,7 +9252,7 @@
   "LM2": {
     "en": "'DON'T SPANK MA BITCH UP'",
     "ru": "'ОТВАЛИ ОТ МОИХ ТЕЛОК'",
-    "ka": "'არ გატყიპო ჩემი ძუკნა'"
+    "ka": "'მოშორდი ჩემ გოგოებს'"
   },
   "LM2_1": {
     "en": "~g~Take his car and get it resprayed.",
@@ -9262,17 +9262,17 @@
   "LM2_2A": {
     "en": "Use the~h~ ~k~~PED_FIREWEAPON~ button~w~ to ~h~punch ~w~and ~h~kick~w~ or ~h~swing ~w~the bat!",
     "ru": "Нажав на ~h~ ~k~~PED_FIREWEAPON~~w~ ты ~h~ударишь~w~, ~h~пнешь~w~, или ~h~двинешь~w~ битой противника!",
-    "ka": "გამოიყენეთ ~h~ ~k~~PED_FIREWEAPON~ ღილაკი~w~, რათა ~h~დაარტყოთ ~w~ და ~h~kick~w~ ან ~h~Swing ~w~bat!"
+    "ka": "გამოიყენე ~h~ ~k~~PED_FIREWEAPON~ ღილაკი~w~, რათა ~h~დაარტყოთ ~w~ და ~h~kick~w~ ან ~h~Swing ~w~bat!"
   },
   "LM2_2C": {
     "en": "Use the~h~ ~k~~PED_FIREWEAPON~ button~w~ to ~h~punch ~w~and ~h~kick~w~ or ~h~swing ~w~the bat~w~!",
     "ru": "Нажав на ~h~ ~k~~PED_FIREWEAPON~~w~ ты ~h~ударишь~w~, ~h~пнешь~w~, или ~h~двинешь~w~ битой противника!",
-    "ka": "გამოიყენეთ ~h~ ~k~~PED_FIREWEAPON~ ღილაკი~w~, რათა ~h~დაარტყოთ ~w~ და ~h~kick~w~ ან ~h~Swing ~w~bat~w~!"
+    "ka": "გამოიყენე ~h~ ~k~~PED_FIREWEAPON~ ღილაკი~w~, რათა ~h~დაარტყოთ ~w~ და ~h~kick~w~ ან ~h~Swing ~w~bat~w~!"
   },
   "LM2_2D": {
     "en": "Use the~h~ ~k~~PED_FIREWEAPON~ button~w~ to ~h~punch ~w~and ~h~kick~w~ or ~h~swing ~w~the bat~w~!",
     "ru": "Нажав на ~h~ ~k~~PED_FIREWEAPON~~w~ ты ~h~ударишь~w~, ~h~пнешь~w~, или ~h~двинешь~w~ битой противника!",
-    "ka": "გამოიყენეთ ~h~ ~k~~PED_FIREWEAPON~ ღილაკი~w~, რათა ~h~დაარტყოთ ~w~ და ~h~kick~w~ ან ~h~Swing ~w~bat~w~!"
+    "ka": "გამოიყენე ~h~ ~k~~PED_FIREWEAPON~ ღილაკი~w~, რათა ~h~დაარტყოთ ~w~ და ~h~kick~w~ ან ~h~Swing ~w~bat~w~!"
   },
   "LM2_3": {
     "en": "~g~Stash the car in Luigi's lockup!",
@@ -9532,12 +9532,12 @@
   "LOADCAR": {
     "en": "LOADING VEHICLE... (PRESS L1 TO CANCEL)",
     "ru": "LOADING VEHICLE... (PRESS L1 TO CANCEL)",
-    "ka": "მანქანა იტვირთება... (დააჭირეთ L1-ს გასაუქმებლად)"
+    "ka": "მანქანა იტვირთება... (დააჭირე L1-ს გასაუქმებლად)"
   },
   "LOOK_A": {
     "en": "Press and hold the ~h~~k~~VEHICLE_LOOKLEFT~ button ~w~or the ~h~~k~~VEHICLE_LOOKRIGHT~ button~w~ to look ~h~left~w~ or ~h~right~w~ while in a vehicle. Press both to look ~h~behind~w~.",
     "ru": "Удерживай кнопку ~h~~k~~VEHICLE_LOOKLEFT~~w~ или ~h~~k~~VEHICLE_LOOKRIGHT~~w~, чтобы посмотреть из машины ~h~налево~w~ или ~h~направо~w~. Если нажать обе, то посмотришь ~h~назад~w~.",
-    "ka": "ხანგრძლივად დააჭირეთ ~h~~k~~VEHICLE_LOOKLEFT~ ღილაკს ~w~ან ~h~~k~~VEHICLE_LOOKRIGHT~ ღილაკს~w~ რომ გამოიყურებოდეს ~h~მარცხნივ~w~ ან ~h~მარჯვნივ~w~ მანქანაში. დააჭირეთ ორივეს, რათა გამოიყურებოდეს ~h~back~w~."
+    "ka": "ხანგრძლივად დააჭირე ~h~~k~~VEHICLE_LOOKLEFT~ ღილაკს ~w~ან ~h~~k~~VEHICLE_LOOKRIGHT~ ღილაკს~w~ რომ გამოიყურებოდეს ~h~მარცხნივ~w~ ან ~h~მარჯვნივ~w~ მანქანაში. დააჭირე ორივეს, რათა გამოიყურებოდეს ~h~back~w~."
   },
   "LOV4_10": {
     "en": "~r~The only lead to where the package has gone has been destroyed!",
@@ -10022,12 +10022,12 @@
   "L_TRN_1": {
     "en": "You can ride the L-train around Portland. Press the~h~ ~k~~VEHICLE_ENTER_EXIT~ button~w~ to ~h~enter ~w~or ~h~exit~w~ a train.",
     "ru": "Ты можешь попасть в другой район Портланда, воспользовавшись метро. Нажми~h~ ~k~~VEHICLE_ENTER_EXIT~~w~, чтобы ~h~сесть~w~ или ~h~выйти~w~ из поезда.",
-    "ka": "თქვენ შეგიძლიათ ატაროთ L- მატარებელი პორტლენდის გარშემო. დააჭირეთ ~h~ ~k~~VEHICLE_ENTER_EXIT~ ღილაკს~w~, რათა ~h~შეხვიდეთ ~w~ან ~h~გასვლა~w~ მატარებელში."
+    "ka": "შენ შეგიძლია ატარო L-მატარებელი პორტლენდის გარშემო. დააჭირე ~h~ ~k~~VEHICLE_ENTER_EXIT~ ღილაკს~w~, რათა ~h~შეხვიდე ~w~ან ~h~გახვიდე~w~ მატარებლიდან."
   },
   "L_TRN_2": {
     "en": "You can ride the L-train around Portland. Press the~h~ ~k~~VEHICLE_ENTER_EXIT~ button~w~ to ~h~enter ~w~or ~h~exit~w~ a train.",
     "ru": "Ты можешь попасть в другой район Портланда, воспользовавшись метро. Нажми~h~ ~k~~VEHICLE_ENTER_EXIT~~w~, чтобы ~h~сесть~w~ или ~h~выйти~w~ из поезда.",
-    "ka": "თქვენ შეგიძლიათ ატაროთ L- მატარებელი პორტლენდის გარშემო. დააჭირეთ ~h~ ~k~~VEHICLE_ENTER_EXIT~ ღილაკს~w~, რათა ~h~შეხვიდეთ ~w~ან ~h~გასვლა~w~ მატარებელში."
+    "ka": "შენ შეგიძლია ატარო L-მატარებელი პორტლენდის გარშემო. დააჭირე ~h~ ~k~~VEHICLE_ENTER_EXIT~ ღილაკს~w~, რათა ~h~შეხვიდე ~w~ან ~h~გახვიდე~w~ მატარებლიდან."
   },
   "MAFIACR": {
     "en": "Mafia Sentinel",
@@ -10082,7 +10082,7 @@
   "MEA1": {
     "en": "'THE CROOK'",
     "ru": "'МОШЕННИК'",
-    "ka": "'მაღალატე'"
+    "ka": "'თაღლითი'"
   },
   "MEA1_1": {
     "en": "~r~The Bank Manager's dead!",
@@ -10092,32 +10092,32 @@
   "MEA1_2": {
     "en": "~r~You were told to crush the vehicle!",
     "ru": "~r~Тебе же сказали уничтожить машину!",
-    "ka": "~r~გითხრეს, რომ მანქანა დაამტვრიეო!"
+    "ka": "~r~გითხრეს მანქანა დაამტვრიეო!"
   },
   "MEA1_3": {
     "en": "~g~Get out of the car!",
     "ru": "~g~Выбирайся из машины!",
-    "ka": "~g~გადადით მანქანიდან!"
+    "ka": "~g~გადადი მანქანიდან!"
   },
   "MEA1_4": {
     "en": "~r~You have left the Bank Manager behind!",
     "ru": "~r~Ты проехал мимо управляющего банка!",
-    "ka": "~r~თქვენ დატოვეთ ბანკის მენეჯერი!"
+    "ka": "~r~შენ დატოვე ბანკის მენეჯერი!"
   },
   "MEA1_B": {
     "en": "The name's Chonks, Marty Chonks.",
     "ru": "Я Чонкс, Марти Чонкс.",
-    "ka": "სახელად ჩონქსი, მარტი ჩონქსი."
+    "ka": "მე ჩონქსი ვარ, მარტი ჩონქსი."
   },
   "MEA1_B3": {
     "en": "~g~Go and meet the Bank Manager.",
     "ru": "~g~Езжай и встреть управляющего банка.",
-    "ka": "~g~წადით და შეხვდით ბანკის მენეჯერს."
+    "ka": "~g~წადი და შეხვდი ბანკის მენეჯერს."
   },
   "MEA1_B4": {
     "en": "Ah, Mr Chonks sent you did he. Let's go and pay the fellow a visit.",
     "ru": "А, тебя послал мистер Чонкс. Ну поехали, нанесем ему визит.",
-    "ka": "აჰ, მისტერ ჩონკსმა გამოგიგზავნათ. წავიდეთ და ვესტუმროთ თანამემამულეს."
+    "ka": "აჰ, შენ მისტერ ჩონკსმა გამოგგზავნა. მაშ წავიდეთ და ვესტუმროთ მას."
   },
   "MEA1_B5": {
     "en": "TEXT NO LONGER NEEDED",
@@ -10127,7 +10127,7 @@
   "MEA1_B6": {
     "en": "~g~Take the car to the crusher to get rid of evidence, get out of the car and the crane will pick it up.",
     "ru": "~g~Отгони машину в утилизатор, чтобы избавиться от улик. Выйди из машины и ее подцепит кран.",
-    "ka": "~g~მიიყვანეთ მანქანა გამანადგურებელთან მტკიცებულებების მოსაშორებლად, გადმოდით მანქანიდან და ამწე აიღებს მას."
+    "ka": "~g~მიიტანე მანქანა გამანადგურებელთან მტკიცებულებების მოსაშორებლად. გადმოდი მანქანიდან და მას ამწე აიღებს."
   },
   "MEA1_C": {
     "en": "I run the Bitchin' Dog Food factory around the corner.",
@@ -10237,7 +10237,7 @@
   "MEA2_G": {
     "en": "Use it to go and pick them up from their turf in the Red Light district.",
     "ru": "Возьми ее и сгоняй за ними. Они тусуются где-то в квартале красных фонарей.",
-    "ka": "გამოიყენეთ ის, რომ წახვიდეთ და აიღოთ ისინი წითელი შუქის რაიონში მათი ტურფიდან."
+    "ka": "გამოიყენე ის, რომ წახვიდე და აიღო ისინი წითელი შუქის რაიონში მათი ტურფიდან."
   },
   "MEA2_H": {
     "en": "Then bring 'em back to the factory so I can make 'em see Marty's point of view.",
@@ -10257,12 +10257,12 @@
   "MEA3_2": {
     "en": "~r~You were supposed to dump the vehicle in the water!",
     "ru": "~r~Ты должен был утопить тачку!",
-    "ka": "~r~თქვენ უნდა გადააგდოთ მანქანა წყალში!"
+    "ka": "~r~შენ უნდა გადააგდო მანქანა წყალში!"
   },
   "MEA3_3": {
     "en": "~r~You have left his wife behind!",
     "ru": "~r~Ты проехал мимо его жены!",
-    "ka": "~r~თქვენ დატოვეთ მისი ცოლი!"
+    "ka": "~r~შენ გაცდი მის ცოლს!"
   },
   "MEA3_A": {
     "en": "The business is going to go under unless I get hold of some serious cash soon.",
@@ -10387,7 +10387,7 @@
   "MEAT1_A": {
     "en": "A friend said you could fix some problems I got. Get to the payphone in Trenton if you think you can help.",
     "ru": "Друзья посоветовали мне обратиться к тебе, чтобы решить все мои проблемы. Если ты согласен, подойди к телефону в Трентоне.",
-    "ka": "მეგობარმა თქვა, რომ თქვენ შეგეძლოთ ჩემი პრობლემების გამოსწორება. მიბრძანდით ტრენტონში, თუ ფიქრობთ, რომ შეგიძლიათ დახმარება."
+    "ka": "მეგობარმა თქვა, რომ შენ შეგიძლია ჩემი პრობლემების გამოსწორება. მიდი ტრენტონში, თუ ფიქრობთ, რომ შეგიძლია დახმარება."
   },
   "MED_WST": {
     "en": "Medics wasted",
@@ -10427,7 +10427,7 @@
   "MM_1_A": {
     "en": "~g~You have ~y~2 minutes~g~ to collect ~y~20 checkpoints~g~ in the multistorey! ~g~You may collect them in ~y~ANY ORDER.",
     "ru": "~g~У тебя ~y~2 минуты~g~, чтобы проехать ~y~20 контрольных пунктов~g~ в высотном гараже! ~g~Ты можешь проезжать их ~y~В ЛЮБОМ ПОРЯДКЕ~g~.",
-    "ka": "~g~შენ გაქვს ~y~2 წუთი~g~ შეაგროვოთ ~y~20 საგუშაგო~g~ მრავალსართულიანში! ~g~შეგიძლიათ შეაგროვოთ ისინი ~y~ნებისმიერი თანმიმდევრობით."
+    "ka": "~g~შენ გაქვს ~y~2 წუთი~g~, რომ შეაგროვო ~y~20 საგუშაგო~g~ მრავალსართულიანში! ~g~შეგიძლია შეაგროვო ისინი ~y~ნებისმიერი თანმიმდევრობით."
   },
   "MM_1_B": {
     "en": "~1~ of 20!",
@@ -10567,7 +10567,7 @@
   "NOGMSV": {
     "en": "Can save only at your hideout.",
     "ru": "Записаться можно лишь в твоем гараже.",
-    "ka": "შეგიძლიათ შეინახოთ მხოლოდ თქვენს სამალავში."
+    "ka": "შეგიძლია შეინახო მხოლოდ შენ სამალავში."
   },
   "NOMONEY": {
     "en": "~g~You need more cash!",
@@ -10602,7 +10602,7 @@
   "NO_PCCD": {
     "en": "Please insert Grand Theft Auto III - disc 2 into the drive or press ESC to cancel",
     "ru": "Пожалуйста, вставьте второй диск игры GTA3 в CDROM привод, или нажмите ESC для выхода из игры.",
-    "ka": "გთხოვთ ჩადეთ Grand Theft Auto III - დისკი 2 დისკში ან დააჭირეთ ESC გასაუქმებლად"
+    "ka": "გთხოვთ ჩადეთ Grand Theft Auto III - დისკი 2 დისკში ან დააჭირე ESC გასაუქმებლად"
   },
   "NRECORD": {
     "en": "~r~NO NEW RECORD!",
@@ -10872,12 +10872,12 @@
   "PBOAT_1": {
     "en": "Press the ~h~~k~~PED_FIREWEAPON~ button~w~ to fire the boat cannons.",
     "ru": "Чтобы выстрелить из орудия катера нажми ~h~~k~~VEHICLE_FIREWEAPON~~w~.",
-    "ka": "დააჭირეთ ~h~~k~~PED_FIREWEAPON~ ღილაკს~w~ ნავის ქვემეხების გასასროლად."
+    "ka": "დააჭირე ~h~~k~~PED_FIREWEAPON~ ღილაკს~w~ ნავის ქვემეხების გასასროლად."
   },
   "PBOAT_2": {
     "en": "Press the ~h~~k~~PED_FIREWEAPON~ button~w~ to fire the boat cannons.",
     "ru": "Чтобы выстрелить из орудия катера нажми ~h~~k~~VEHICLE_FIREWEAPON~~w~.",
-    "ka": "დააჭირეთ ~h~~k~~PED_FIREWEAPON~ ღილაკს~w~ ნავის ქვემეხების გასასროლად."
+    "ka": "დააჭირე ~h~~k~~PED_FIREWEAPON~ ღილაკს~w~ ნავის ქვემეხების გასასროლად."
   },
   "PCLOAD": {
     "en": "Loading File Data",
@@ -11022,22 +11022,22 @@
   "RADIO_A": {
     "en": "Press the ~h~~k~~VEHICLE_CHANGE_RADIO_STATION~ button~w~ to cycle through the ~h~radio stations.",
     "ru": "Нажимай ~h~~k~~VEHICLE_CHANGE_RADIO_STATION~ ~w~, чтобы менять ~h~ радиоволну.",
-    "ka": "დააჭირეთ ~h~~k~~VEHICLE_CHANGE_RADIO_STATION~ ღილაკს~w~ რათა გადართოთ ~h~რადიოსადგურები."
+    "ka": "დააჭირე ~h~~k~~VEHICLE_CHANGE_RADIO_STATION~ ღილაკს~w~ რათა გადართოთ ~h~რადიოსადგურები."
   },
   "RADIO_B": {
     "en": "Press the ~h~~k~~VEHICLE_CHANGE_RADIO_STATION~ button~w~ to cycle through the ~h~radio stations.",
     "ru": "Нажимай ~h~~k~~VEHICLE_CHANGE_RADIO_STATION~ ~w~, чтобы менять ~h~ радиоволну.",
-    "ka": "დააჭირეთ ~h~~k~~VEHICLE_CHANGE_RADIO_STATION~ ღილაკს~w~ რათა გადართოთ ~h~რადიოსადგურები."
+    "ka": "დააჭირე ~h~~k~~VEHICLE_CHANGE_RADIO_STATION~ ღილაკს~w~ რათა გადართოთ ~h~რადიოსადგურები."
   },
   "RADIO_C": {
     "en": "Press the ~h~~k~~VEHICLE_CHANGE_RADIO_STATION~ button~w~ to cycle through the ~h~radio stations.",
     "ru": "Нажимай ~h~~k~~VEHICLE_CHANGE_RADIO_STATION~ ~w~, чтобы менять ~h~ радиоволну.",
-    "ka": "დააჭირეთ ~h~~k~~VEHICLE_CHANGE_RADIO_STATION~ ღილაკს~w~ რათა გადართოთ ~h~რადიოსადგურები."
+    "ka": "დააჭირე ~h~~k~~VEHICLE_CHANGE_RADIO_STATION~ ღილაკს~w~ რათა გადართოთ ~h~რადიოსადგურები."
   },
   "RADIO_D": {
     "en": "Press the ~h~~k~~VEHICLE_CHANGE_RADIO_STATION~ button~w~ to cycle through the ~h~radio stations.",
     "ru": "Нажимай ~h~~k~~VEHICLE_CHANGE_RADIO_STATION~ ~w~, чтобы менять ~h~ радиоволну.",
-    "ka": "დააჭირეთ ~h~~k~~VEHICLE_CHANGE_RADIO_STATION~ ღილაკს~w~ რათა გადართოთ ~h~რადიოსადგურები."
+    "ka": "დააჭირე ~h~~k~~VEHICLE_CHANGE_RADIO_STATION~ ღილაკს~w~ რათა გადართოთ ~h~რადიოსადგურები."
   },
   "RAMPAGE": {
     "en": "RAMPAGE!!",
@@ -11702,7 +11702,7 @@
   "SAVE1": {
     "en": "Walk through the doorway to ~h~Save the game~w~. You cannot save during a mission.",
     "ru": "Чтобы ~h~сохранить игру~w~ - пройди в дверь. Во время задания записаться нельзя.",
-    "ka": "გაიარეთ კარიბჭე ~h~თამაშის შესანახად~w~. თქვენ არ შეგიძლიათ დაზოგოთ მისიის დროს."
+    "ka": "გაიარე კარიბჭე ~h~თამაშის შესანახად~w~. შენ არ შეგიძლია შეინახო მისიის დროს."
   },
   "SAVE2": {
     "en": "Any vehicle left in this garage will be stored when the game is saved.",
@@ -11912,12 +11912,12 @@
   "SPRAY_1": {
     "en": "Use the ~h~~k~~PED_FIREWEAPON~ button ~w~to fire the water cannon.",
     "ru": "Чтобы включить брандспойт, нажми на ~h~~k~~VEHICLE_FIREWEAPON~~w~.",
-    "ka": "გამოიყენეთ ~h~~k~~PED_FIREWEAPON~ ღილაკი ~w~ წყლის ჭავლის გასასროლად."
+    "ka": "გამოიყენე ~h~~k~~PED_FIREWEAPON~ ღილაკი ~w~ წყლის ჭავლის გასასროლად."
   },
   "SPRAY_4": {
     "en": "Use the ~h~~k~~PED_FIREWEAPON~ button ~w~to fire the water cannon.",
     "ru": "Чтобы включить брандспойт, нажми на ~h~~k~~VEHICLE_FIREWEAPON~~w~.",
-    "ka": "გამოიყენეთ ~h~~k~~PED_FIREWEAPON~ ღილაკი ~w~ წყლის ჭავლის გასასროლად."
+    "ka": "გამოიყენე ~h~~k~~PED_FIREWEAPON~ ღილაკი ~w~ წყლის ჭავლის გასასროლად."
   },
   "STADIUM": {
     "en": "Aspatria",
@@ -12012,7 +12012,7 @@
   "S_PROM2": {
     "en": "The garage next door can store one vehicle when you save your game.",
     "ru": "Если в этот гараж поставить машину, то она будет сохранена при записи игры.",
-    "ka": "მეზობელ ავტოფარეხში შეგიძლიათ ერთი მანქანის შენახვა, თამაშს შენახვის დროს."
+    "ka": "მეზობელ ავტოფარეხში შეგიძლია ერთი მანქანის შენახვა, თამაშის შენახვის დროს."
   },
   "S_PROMP": {
     "en": "When not on a mission you can ~h~save your game here~w~, this will advance time six hours.",
@@ -12042,7 +12042,7 @@
   "T4X4_1A": {
     "en": "~g~You have ~y~5 minutes~g~ to collect ~y~15~g~ checkpoints. ~g~You may collect them in ~y~ANY ORDER.",
     "ru": "~g~У тебя ~y~5 минут~g~ чтобы пройти ~y~15 контрольных пунктов~g~. Ты можешь их проходить в ~y~ЛЮБОМ~g~ порядке.",
-    "ka": "~g~შენ გაქვს ~y~5 წუთი~g~ ~y~15~g~ საგუშაგოების შესაგროვებლად. ~g~შეგიძლიათ შეაგროვოთ ისინი ~y~ნებისმიერი თანმიმდევრობით."
+    "ka": "~g~შენ გაქვს ~y~5 წუთი~g~ ~y~15~g~ საგუშაგოების შესაგროვებლად. ~g~შეგიძლია შეაგროვო ისინი ~y~ნებისმიერი თანმიმდევრობით."
   },
   "T4X4_1B": {
     "en": "~1~ of 15!",
@@ -12062,7 +12062,7 @@
   "T4X4_2A": {
     "en": "~g~You have ~y~2 minutes~g~ to collect ~y~12~g~ checkpoints!! ~g~You may collect them in ~y~ANY ORDER.",
     "ru": "~g~У тебя ~y~5 минут~g~ чтобы пройти ~y~12 контрольных пунктов~g~. Ты можешь их проходить в ~y~ЛЮБОМ~g~ порядке.",
-    "ka": "~g~შენ გაქვს ~y~2 წუთი~g~ შეაგროვოთ ~y~12~g~ საგუშაგოები!! ~g~შეგიძლიათ შეაგროვოთ ისინი ~y~ნებისმიერი თანმიმდევრობით."
+    "ka": "~g~შენ გაქვს ~y~2 წუთი~g~,რომ შეაგროვო ~y~12~g~ საგუშაგოები!! ~g~შეგიძლია შეაგროვო ისინი ~y~ნებისმიერი თანმიმდევრობით."
   },
   "T4X4_2B": {
     "en": "~1~ of 12!",
@@ -12082,7 +12082,7 @@
   "T4X4_3A": {
     "en": "~g~You have ~y~5 minutes~g~ to collect ~y~20~g~ checkpoints. ~g~You may collect them in ~y~ANY ORDER.",
     "ru": "~g~У тебя ~y~5 минут~g~, чтобы пройти ~y~20 контрольных пунктов~g~. Ты можешь их проходить в ~y~ЛЮБОМ~g~ порядке.",
-    "ka": "~g~შენ გაქვს ~y~5 წუთი~g~ ~y~20~g~ საგუშაგოების შესაგროვებლად. ~g~შეგიძლიათ შეაგროვოთ ისინი ~y~ნებისმიერი თანმიმდევრობით."
+    "ka": "~g~შენ გაქვს ~y~5 წუთი~g~ ~y~20~g~ საგუშაგოების შესაგროვებლად. ~g~შეგიძლია შეაგროვო ისინი ~y~ნებისმიერი თანმიმდევრობით."
   },
   "T4X4_3B": {
     "en": "~y~PASS THROUGH~g~ the first checkpoint to start the timer. ~g~Each checkpoint will credit you with ~y~15 SECONDS~g~.",
@@ -12227,7 +12227,7 @@
   "TM1_J": {
     "en": "~w~8-Ball can supply you with what you're gonna need.",
     "ru": "~w~Все, что для этого нужно, ты можешь взять у Лысого.",
-    "ka": "~w~8-ბურთი მოგამარაგებს ყველაფრით რაც დაგჭირდება."
+    "ka": "~w~მელოტი მოგამარაგებს ყველაფრით რაც დაგჭირდება."
   },
   "TM2": {
     "en": "'THE PICK-UP'",
@@ -12642,12 +12642,12 @@
   "TTUTOR": {
     "en": "Press the ~h~~k~~TOGGLE_SUBMISSIONS~ button~w~ to toggle taxi missions on or off.",
     "ru": "Чтобы заняться работой таксиста или отказаться от нее, нажми кнопку ~h~~k~~TOGGLE_SUBMISSIONS~~w~.",
-    "ka": "დააჭირეთ ~h~~k~~TOGGLE_SUBMISSIONS~ ღილაკს~w~ ტაქსის მისიების ჩართვის ან გამორთვისთვის."
+    "ka": "დააჭირე ~h~~k~~TOGGLE_SUBMISSIONS~ ღილაკს~w~ ტაქსის მისიების ჩართვის ან გამორთვისთვის."
   },
   "TTUTOR2": {
     "en": "Press the ~h~~k~~TOGGLE_SUBMISSIONS~ button~w~ to toggle taxi missions on or off.",
     "ru": "Чтобы заняться работой таксиста или отказаться от нее, нажми кнопку ~h~~k~~TOGGLE_SUBMISSIONS~~w~.",
-    "ka": "დააჭირეთ ~h~~k~~TOGGLE_SUBMISSIONS~ ღილაკს~w~ ტაქსის მისიების ჩართვის ან გამორთვისთვის."
+    "ka": "დააჭირე ~h~~k~~TOGGLE_SUBMISSIONS~ ღილაკს~w~ ტაქსის მისიების ჩართვის ან გამორთვისთვის."
   },
   "TUBE1": {
     "en": "When the subway opens you will be able to catch a train to Staunton Island.",
@@ -12662,7 +12662,7 @@
   "TUBE_2": {
     "en": "To board a subway train, press the ~h~'enter vehicle' button~w~.",
     "ru": "чтобы сесть на электричку в метро - нажми ~h~~k~~VEHICLE_ENTER_EXIT~~w~.",
-    "ka": "მეტროს მატარებელში ჩასასვლელად დააჭირეთ ღილაკს ~h~'შესვლის მანქანა~~w~."
+    "ka": "მეტროს მატარებელში ჩასასვლელად დააჭირე ღილაკს ~h~'შესვლის მანქანა~~w~."
   },
   "TUNNEL": {
     "en": "When the Porter Tunnel is opened you will be able to drive to Staunton Island.",
@@ -12762,12 +12762,12 @@
   "WANT_G": {
     "en": "When you are ~h~'busted'~w~ you are returned to the nearest police station.",
     "ru": "После ~h~ареста~w~ тебя отвозят в ближайший полицейский участок",
-    "ka": "~h~'დაჭერის'~w~ დროს თქვენ დაბრუნდებით უახლოეს პოლიციის განყოფილებაში."
+    "ka": "~h~'დაჭერის'~w~ დროს შენ დაბრუნდები უახლოეს პოლიციის განყოფილებაში."
   },
   "WANT_H": {
     "en": "The cops will take all your weapons and some of your cash as a bribe.",
     "ru": "Копы забирают у тебя все оружие и часть денег в качестве взятки.",
-    "ka": "პოლიციელები ქრთამის სახით წაიღებენ თქვენს იარაღს და ნაღდ ფულს."
+    "ka": "პოლიციელები ქრთამის სახით წაიღებენ შენს იარაღს და ფულს."
   },
   "WANT_I": {
     "en": "Any mission you were on will be failed.",
