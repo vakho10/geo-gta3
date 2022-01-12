@@ -517,12 +517,12 @@
   "AS2_1": {
     "en": "~g~All espresso stalls in Portland wrecked!!",
     "ru": "~g~В Портланде уничтожены все кофейные ларьки!",
-    "ka": "~g~პორტლენდში ესპრესოს ყველა ჯიხური დაინგრა!"
+    "ka": "~g~პორტლანდში ესპრესოს ყველა ჯიხური დაინგრა!"
   },
   "AS2_10": {
     "en": "~g~There are still espresso stalls in Portland and on Staunton Island",
     "ru": "~g~Кофейные ларьки еще стоят в Портланде и на острове Стаунтон.",
-    "ka": "~g~ჯერ კიდევ არის ესპრესოს ჯიხური პორტლენდში და სტონტონის კუნძულზე"
+    "ka": "~g~ჯერ კიდევ არის ესპრესოს ჯიხური პორტლანდში და სტონტონის კუნძულზე"
   },
   "AS2_11": {
     "en": "~g~~1~ OF 9!",
@@ -572,12 +572,12 @@
   "AS2_8": {
     "en": "~g~There are still espresso stalls in Portland!",
     "ru": "~g~Кофейные ларьки еще стоят в Портланде!",
-    "ka": "~g~პორტლენდში ჯერ კიდევ არის ესპრესო ჯიხურები!"
+    "ka": "~g~პორტლანდში ჯერ კიდევ არის ესპრესო ჯიხურები!"
   },
   "AS2_9": {
     "en": "~g~There are still espresso stalls in Portland and Shoreside Vale!",
     "ru": "~g~Кофейные ларьки еще стоят в Портланде и в Шорсайд Вейл!",
-    "ka": "~g~ჯერ კიდევ არის ესპრესო ჯიხურები პორტლენდსა და შორსაიდ ვალეში!"
+    "ka": "~g~ჯერ კიდევ არის ესპრესო ჯიხურები პორტლანდსა და შორსაიდ ვალეში!"
   },
   "AS2_A": {
     "en": "~w~We underestimated Catalina's plans for SPANK.",
@@ -852,7 +852,7 @@
   "BELLYUP": {
     "en": "Triad Fish Van",
     "ru": "Фургон Триад",
-    "ka": "Triad Fish Van"
+    "ka": "ტრიადის ფურგონი"
   },
   "BETRA_A": {
     "en": "Sorry, babe.",
@@ -6077,7 +6077,7 @@
   "FET_APL": {
     "en": "APPLY",
     "ru": "    ОК?",
-    "ka": "მიმართე"
+    "ka": "აირჩიე"
   },
   "FET_APP": {
     "en": "LMB,RETURN TO APPLY THE NEW SETTING",
@@ -6677,7 +6677,7 @@
   "FM2_5": {
     "en": "~g~Take him to Portland Harbor.",
     "ru": "~g~Отвези его в гавань Портланда.",
-    "ka": "~g~წაიყვანეთ იგი პორტლენდ ჰარბორში."
+    "ka": "~g~წაიყვანეთ იგი პორტლანდ ჰარბორში."
   },
   "FM2_6": {
     "en": "~r~Curly won't get into a smashed-up taxi!",
@@ -8107,7 +8107,7 @@
   "IND_ZON": {
     "en": "Portland",
     "ru": "Портланд",
-    "ka": "პორტლენდი"
+    "ka": "პორტლანდი"
   },
   "INFERNS": {
     "en": "Infernus",
@@ -9307,7 +9307,7 @@
   "LM2_E": {
     "en": "Some wiseguy's been introducing this trash to my girls down Portland Harbor.",
     "ru": "Какой-то умник впаривает эту дрянь моим девкам в Портландской гавани.",
-    "ka": "ვიღაც ბრძენი კაცი ამ ნაგავს აცნობს ჩემს გოგოებს პორტლენდ ჰარბორში."
+    "ka": "ვიღაც ბრძენი კაცი ამ ნაგავს აცნობს ჩემს გოგოებს პორტლანდ ჰარბორში."
   },
   "LM2_F": {
     "en": "Then take his car, respray it.",
@@ -10022,12 +10022,12 @@
   "L_TRN_1": {
     "en": "You can ride the L-train around Portland. Press the~h~ ~k~~VEHICLE_ENTER_EXIT~ button~w~ to ~h~enter ~w~or ~h~exit~w~ a train.",
     "ru": "Ты можешь попасть в другой район Портланда, воспользовавшись метро. Нажми~h~ ~k~~VEHICLE_ENTER_EXIT~~w~, чтобы ~h~сесть~w~ или ~h~выйти~w~ из поезда.",
-    "ka": "შენ შეგიძლია ატარო L-მატარებელი პორტლენდის გარშემო. დააჭირე ~h~ ~k~~VEHICLE_ENTER_EXIT~ ღილაკს~w~, რათა ~h~შეხვიდე ~w~ან ~h~გახვიდე~w~ მატარებლიდან."
+    "ka": "შენ შეგიძლია ატარო L-მატარებელი პორტლანდის გარშემო. დააჭირე ~h~ ~k~~VEHICLE_ENTER_EXIT~ ღილაკს~w~, რათა ~h~შეხვიდე ~w~ან ~h~გახვიდე~w~ მატარებლიდან."
   },
   "L_TRN_2": {
     "en": "You can ride the L-train around Portland. Press the~h~ ~k~~VEHICLE_ENTER_EXIT~ button~w~ to ~h~enter ~w~or ~h~exit~w~ a train.",
     "ru": "Ты можешь попасть в другой район Портланда, воспользовавшись метро. Нажми~h~ ~k~~VEHICLE_ENTER_EXIT~~w~, чтобы ~h~сесть~w~ или ~h~выйти~w~ из поезда.",
-    "ka": "შენ შეგიძლია ატარო L-მატარებელი პორტლენდის გარშემო. დააჭირე ~h~ ~k~~VEHICLE_ENTER_EXIT~ ღილაკს~w~, რათა ~h~შეხვიდე ~w~ან ~h~გახვიდე~w~ მატარებლიდან."
+    "ka": "შენ შეგიძლია ატარო L-მატარებელი პორტლანდის გარშემო. დააჭირე ~h~ ~k~~VEHICLE_ENTER_EXIT~ ღილაკს~w~, რათა ~h~შეხვიდე ~w~ან ~h~გახვიდე~w~ მატარებლიდან."
   },
   "MAFIACR": {
     "en": "Mafia Sentinel",
@@ -10212,7 +10212,7 @@
   "MEA2_B6": {
     "en": "~g~Get the car resprayed to get rid of any evidence.",
     "ru": "~g~Перекрась машину, чтобы избавиться от улик.",
-    "ka": "~g~გადაიბრუნეთ მანქანა, რათა თავიდან აიცილოთ რაიმე მტკიცებულება."
+    "ka": "~g~გადაღებე მანქანა, რათა მტკიცებულებები მოიშორო."
   },
   "MEA2_C": {
     "en": "The thieving bastards are threatening to tell the insurance company,",
@@ -10277,7 +10277,7 @@
   "MEA3_B3": {
     "en": "~g~Go and collect Mrs. Chonks",
     "ru": "~g~Езжай и подбери миссис Чонкс.",
-    "ka": "~g~წადით და შეაგროვეთ ქალბატონი ჩონკები"
+    "ka": "~g~წადი და აიყვანე მისის ჩონკსი"
   },
   "MEA3_B4": {
     "en": "Marty wants to see me? Well it better be quick because I have to get my hair done.",
@@ -10292,7 +10292,7 @@
   "MEA3_B6": {
     "en": "~g~Take the car and dump it into the sea, this will get rid of any evidence.",
     "ru": "~g~Чтобы избавиться от улик, утопи тачку.",
-    "ka": "~g~აიღე მანქანა და ჩააგდე ზღვაში, ამით ყოველგვარი მტკიცებულება მოიშორებს."
+    "ka": "~g~მტკიცებულებების გასანადგურებლად მანქანა ჩაძირე."
   },
   "MEA3_C": {
     "en": "I've left a car in the usual place.",
@@ -10337,7 +10337,7 @@
   "MEA4_B3": {
     "en": "~g~Pick up his wife's lover",
     "ru": "~g~Подбери любовника жены Чонкса.",
-    "ka": "~g~აიღე ცოლის საყვარელი"
+    "ka": "~g~აიყვანე ცოლის საყვარელი"
   },
   "MEA4_B4": {
     "en": "Marty sent you huh? OK, I'm gonna show that creep the meaning of the word business.",
@@ -10632,7 +10632,7 @@
   "OUT_VEH": {
     "en": "~g~Get out of the vehicle!",
     "ru": "~g~Выйди из тачки!",
-    "ka": "~g~გადადით მანქანიდან!"
+    "ka": "~g~გამოდი მანქანიდან!"
   },
   "O_FAIL": {
     "en": "ODD JOB FAILED!",
