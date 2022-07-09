@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'ka' }}">
+{%- include head.html -%}
+
+<body class="pt-4">
+
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            {%- include header.html -%}
+            <main>
+                {{ content }}
+            </main>
+            {%- include scripts.html -%}
+            {%- include footer.html -%}
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+</html>

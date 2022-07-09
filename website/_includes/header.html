@@ -1,0 +1,22 @@
+<div class="card-gta-title text-start d-flex justify-content-between align-items-center mt-2 mb-3">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+
+    <a href="{{ '/' | relative_url }}"
+       class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <h1 class="font-pricedown m-0">geo gta III</h1>
+    </a>
+
+    {%- if titles_size > 0 -%}
+    <div class="d-flex align-items-center gap-2">
+        {%- for path in page_paths -%}
+        {%- assign my_page = site.pages | where: "path", path | first -%}
+        {%- if my_page.title -%}
+        <a href="{{ my_page.url | relative_url }}" class="btn btn-outline-dark" aria-current="page">{{ my_page.title |
+            escape }}</a>
+        {%- endif -%}
+        {%- endfor -%}
+    </div>
+    {%- endif -%}
+</div>

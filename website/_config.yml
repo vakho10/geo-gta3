@@ -1,0 +1,17 @@
+# See configuration parameters here: https://jekyllrb.com/docs/configuration/default/
+
+title: GEO GTA III
+description: გაქართულებული GTA III
+
+theme: minima
+minima:
+  skin: dark
+destination: ../docs
+url: "https://vakho10.github.io"
+baseurl: "/geo-gta3"
+
+github_url: https://github.com/vakho10/geo-gta3
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

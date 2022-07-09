@@ -1,0 +1,28 @@
+@import "variables";
+
+@font-face {
+    font-family: 'pricedown';
+    src: url("../../assets/font/pricedown.otf");
+}
+
+.font-pricedown {
+    font-family: 'pricedown', serif;
+}
+
+@font-face {
+    font-family: 'bpg-banner';
+    src: url("../../assets/font/bpg-banner.ttf");
+}
+
+.font-bpg-banner {
+    font-family: 'bpg-banner', serif;
+}
+
+@font-face {
+    font-family: 'bpg-banner-caps';
+    src: url("../../assets/font/bpg-banner-caps.ttf");
+}
+
+.font-bpg-banner-caps {
+    font-family: 'bpg-banner-caps', serif;
+}

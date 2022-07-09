@@ -1,6 +1,12 @@
-node_modules/
-.cache/
-.parcel-cache/
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+/node_modules
+/.pnp
+.pnp.js
 package-lock.json
-dist/
+
 .idea
