@@ -10,6 +10,9 @@ destination: ../docs
 url: "https://vakho10.github.io"
 baseurl: "/geo-gta3"
 
+show_excerpts: true
+excerpt_separator: <!--more-->
+
 github_url: https://github.com/vakho10/geo-gta3
 
 plugins:
