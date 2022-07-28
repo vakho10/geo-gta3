@@ -15,31 +15,35 @@ categories: update
 დაბლა ნახავთ ჩემ ნახატებს და მათ თამაშში არსებულ ვარიანტებს.
 
 <div class="row mb-3 g-4">
-    <div class="col-md-6">
-        <a href="{{ '/assets/image/Changes in v.2.0.0/Magazine Cover.png' | relative_url }}">
-            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Magazine Cover.png' | relative_url }}" alt="Magazine cover in game">
+    <div class="col-md">
+        <div class="row mb-3">
+            <div class="col-md">
+                <a target="_blank" href="{{ '/assets/image/Changes in v.2.0.0/Magazine Cover.png' | relative_url }}">
+                    <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Magazine Cover_prev.png' | relative_url }}" alt="Magazine cover in game">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <a target="_blank" href="{{ '/assets/image/Changes in v.2.0.0/Luigi Club.png' | relative_url }}">
+                    <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Luigi Club_prev.png' | relative_url }}" alt="Luigi's club">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md">
+        <a target="_blank" href="{{ '/assets/image/Changes in v.2.0.0/Gogonebi 1.png' | relative_url }}">
+            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Gogonebi 1_prev.png' | relative_url }}" alt="Magazine cover 1">
         </a>
     </div>
-    <div class="col-md-6">
-        <a href="{{ '/assets/image/Changes in v.2.0.0/Luigi Club.png' | relative_url }}">
-            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Luigi Club.png' | relative_url }}" alt="Luigi's club">
+    <div class="col-md">
+        <a target="_blank" href="{{ '/assets/image/Changes in v.2.0.0/Gogonebi 2.png' | relative_url }}">
+            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Gogonebi 2_prev.png' | relative_url }}" alt="Magazine cover 2">
         </a>
     </div>
-</div>
-<div class="row mb-3 g-4">
-    <div class="col-md-4">
-        <a href="{{ '/assets/image/Changes in v.2.0.0/Gogonebi 1.png' | relative_url }}">
-            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Gogonebi 1.png' | relative_url }}" alt="Magazine cover 1">
-        </a>
-    </div>
-    <div class="col-md-4">
-        <a href="{{ '/assets/image/Changes in v.2.0.0/Gogonebi 2.png' | relative_url }}">
-            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Gogonebi 2.png' | relative_url }}" alt="Magazine cover 2">
-        </a>
-    </div>
-    <div class="col-md-4">
-        <a href="{{ '/assets/image/Changes in v.2.0.0/Bunny Girl.png' | relative_url }}">
-            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Bunny Girl.png' | relative_url }}" alt="Bunny Girl">
+    <div class="col-md">
+        <a target="_blank" href="{{ '/assets/image/Changes in v.2.0.0/Bunny Girl.png' | relative_url }}">
+            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Bunny Girl_prev.png' | relative_url }}" alt="Bunny Girl">
         </a>
     </div>
 </div>
@@ -56,59 +60,59 @@ categories: update
 
 <div class="row mb-3 g-4">
     <div class="col-md-4">
-        <a href="{{ '/assets/image/Changes in v.2.0.0/Radar.png' | relative_url }}">
-            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Radar.png' | relative_url }}" alt="New radar icons">
+        <a target="_blank" href="{{ '/assets/image/Changes in v.2.0.0/Radar.png' | relative_url }}">
+            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Radar_prev.png' | relative_url }}" alt="New radar icons">
         </a>
     </div>
     <div class="col-md-4">
-        <a href="{{ '/assets/image/Changes in v.2.0.0/Black Hooker.png' | relative_url }}">
-            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Black Hooker.png' | relative_url }}" alt="Black hooker">
+        <a target="_blank" href="{{ '/assets/image/Changes in v.2.0.0/Black Hooker.png' | relative_url }}">
+            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Black Hooker_prev.png' | relative_url }}" alt="Black hooker">
         </a>
     </div>
     <div class="col-md-4">
-        <a href="{{ '/assets/image/Changes in v.2.0.0/Car Paint.png' | relative_url }}">
-            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Car Paint.png' | relative_url }}" alt="Car paint">
-        </a>
-    </div>
-</div>
-<div class="row mb-3 g-4">
-    <div class="col-md-4">
-        <a href="{{ '/assets/image/Changes in v.2.0.0/Home.png' | relative_url }}">
-            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Home.png' | relative_url }}" alt="Player's home">
-        </a>
-    </div>
-    <div class="col-md-4">
-        <a href="{{ '/assets/image/Changes in v.2.0.0/Street Signs 1.png' | relative_url }}">
-            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Street Signs 1.png' | relative_url }}" alt="Street signs">
-        </a>
-    </div>
-    <div class="col-md-4">
-        <a href="{{ '/assets/image/Changes in v.2.0.0/Street Signs 2.png' | relative_url }}">
-            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Street Signs 2.png' | relative_url }}" alt="Street signs">
+        <a target="_blank" href="{{ '/assets/image/Changes in v.2.0.0/Car Paint.png' | relative_url }}">
+            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Car Paint_prev.png' | relative_url }}" alt="Car paint">
         </a>
     </div>
 </div>
 <div class="row mb-3 g-4">
     <div class="col-md-4">
-        <a href="{{ '/assets/image/Changes in v.2.0.0/Ambulance.png' | relative_url }}">
-            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Ambulance.png' | relative_url }}" alt="Ambulance car">
+        <a target="_blank" href="{{ '/assets/image/Changes in v.2.0.0/Home.png' | relative_url }}">
+            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Home_prev.png' | relative_url }}" alt="Player's home">
         </a>
     </div>
     <div class="col-md-4">
-        <a href="{{ '/assets/image/Changes in v.2.0.0/Mafia Car.png' | relative_url }}">
-            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Mafia Car.png' | relative_url }}" alt="Mafia car">
+        <a target="_blank" href="{{ '/assets/image/Changes in v.2.0.0/Street Signs 1.png' | relative_url }}">
+            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Street Signs 1_prev.png' | relative_url }}" alt="Street signs">
         </a>
     </div>
     <div class="col-md-4">
-        <a href="{{ '/assets/image/Changes in v.2.0.0/Police.png' | relative_url }}">
-            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Police.png' | relative_url }}" alt="Police car">
+        <a target="_blank" href="{{ '/assets/image/Changes in v.2.0.0/Street Signs 2.png' | relative_url }}">
+            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Street Signs 2_prev.png' | relative_url }}" alt="Street signs">
+        </a>
+    </div>
+</div>
+<div class="row mb-3 g-4">
+    <div class="col-md-4">
+        <a target="_blank" href="{{ '/assets/image/Changes in v.2.0.0/Ambulance.png' | relative_url }}">
+            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Ambulance_prev.png' | relative_url }}" alt="Ambulance car">
+        </a>
+    </div>
+    <div class="col-md-4">
+        <a target="_blank" href="{{ '/assets/image/Changes in v.2.0.0/Mafia Car.png' | relative_url }}">
+            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Mafia Car_prev.png' | relative_url }}" alt="Mafia car">
+        </a>
+    </div>
+    <div class="col-md-4">
+        <a target="_blank" href="{{ '/assets/image/Changes in v.2.0.0/Police.png' | relative_url }}">
+            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Police_prev.png' | relative_url }}" alt="Police car">
         </a>
     </div>
 </div>
 <div class="row mb-3 g-4">
     <div class="col">
-        <a href="{{ '/assets/image/Changes in v.2.0.0/Newspaper.png' | relative_url }}">
-            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Newspaper.png' | relative_url }}" alt="Newspaper">
+        <a target="_blank" href="{{ '/assets/image/Changes in v.2.0.0/Newspaper.png' | relative_url }}">
+            <img class="img-fluid" target="_blank" src="{{ '/assets/image/Changes in v.2.0.0/Newspaper_prev.png' | relative_url }}" alt="Newspaper">
         </a>
     </div>
 </div>
