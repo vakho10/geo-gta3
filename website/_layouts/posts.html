@@ -18,7 +18,7 @@ layout: default
 <div>
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     {%- for post in posts -%}
-    <div class="card border-0">
+    <div class="card mb-3 border-0">
         <div class="card-body">
             <h3 class="card-title">
                 <a class="post-link" href="{{ post.url | relative_url }}">
